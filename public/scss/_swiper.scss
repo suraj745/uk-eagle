@@ -1,0 +1,34 @@
+.service-outer {
+  background-color: #25237a;
+}
+
+.service-tail {
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-wrapper {
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    #home-card {
+      max-width: 35rem;
+    }
+  }
+
+  .swiper-pagination-bullet {
+    background-color: white !important;
+    width: 1.2rem;
+    height: 1.2rem;
+  }
+}
+//

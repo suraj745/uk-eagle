@@ -1,0 +1,94 @@
+@import "/node_modules/include-media/dist/include-media";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@mixin flex($h, $v) {
+  display: flex;
+  justify-content: $h;
+  align-items: $v;
+}
+
+// color
+$primary-color: #26247b;
+$secondary-color: #8dc63f;
+$tw: white;
+$bg-white: white;
+
+// transition
+$primary-time: 0.3s;
+
+.head-m {
+  font-size: clamp(3rem, 6rem, 5vw);
+  font-weight: bold;
+}
+
+.main-heading {
+  font-size: clamp(2rem, 3.5rem, 5vw);
+  font-weight: bold;
+  color: $primary-color;
+}
+
+.padding-130 {
+  padding-block: 13rem;
+}
+
+.head-s {
+  font-size: clamp(2rem, 4rem, 5vw);
+  font-weight: 600;
+}
+
+.small-heading {
+  font-size: clamp(1.2rem, 1.6rem, 5vw);
+  font-weight: 600;
+  color: $primary-color;
+}
+
+.padding-tp-130 {
+  padding-block-start: 13rem;
+}
+
+.heading-content {
+  & > :not(:nth-child(1)) {
+    margin-top: 1rem;
+  }
+}
+
+.padding-bt-130 {
+  padding-block-end: 13rem;
+}
+.font-xl {
+  font-size: clamp(3rem, 6rem, 5vw);
+  font-weight: 500;
+}
+
+.font-sm {
+  font-size: clamp(1rem, 1.5rem, 5vw);
+}
+.default-button {
+  border: none;
+  color: white;
+  font-weight: 500;
+  padding: 1rem 2rem;
+  background-color: $primary-color;
+  text-transform: capitalize;
+
+  transition: 0.2s;
+  font-size: clamp(1rem, 1.5rem, 1vw);
+
+  &:hover {
+    background-color: $secondary-color;
+    color: $tw;
+  }
+}
+
+.home-card-left-content {
+  & > :not(:nth-child(1)) {
+    margin-top: 1rem;
+  }
+}
+
+.btn-on-blue {
+  &:hover {
+    color: white !important;
+    background-color: $secondary-color !important;
+  }
+}
