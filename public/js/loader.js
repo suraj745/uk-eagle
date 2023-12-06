@@ -7,7 +7,7 @@ document.querySelector(
         class="col-5 col-md-3 col-lg-2 col-xl-2 nav-logo d-flex align-items-center"
       >
         <li>
-          <img src="/public/images/logo.png" alt="" />
+          <img src="/images/logo.png" alt="" />
         </li>
       </ul>
       <ul class="col-lg-8 col-xl-6 nav-menus" data-mobnav="deactive">
