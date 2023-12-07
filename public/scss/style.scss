@@ -312,7 +312,7 @@
   gap: clamp(1rem, 2rem, 2vw);
 }
 
-.section-3-card {
+.section-3-row .section-3-card {
   max-width: 30rem;
   padding: 1rem !important;
   @include media("<=576px") {

@@ -2,7 +2,7 @@ export default {
   build: {
     rollupOptions: {
       input: {
-        index: "/js/main.js", // Common entry point for shared modules
+        index: "main.js", // Common entry point for shared modules
         homePage: "index.html", // Entry point for index.html
         // aboutPage: "/pages/about.html",
         // blogPage: "/pages/blog.html",

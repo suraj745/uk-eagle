@@ -1,9 +1,9 @@
 import $ from "jquery";
-import "./loader";
-import "./modal";
-import "./serviceload";
-import Aos from "aos";
-Aos.init();
+import "/public/js/swiper";
+import "/public/js/loader";
+import "/public/js/modal";
+import "/public/js/serviceload";
+import "/public/js/gsapmain";
 
 function navSlider() {
   const navMenus = document.querySelector(".nav-menus");
