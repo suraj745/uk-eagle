@@ -78,4 +78,9 @@ function loadSwiperSlide(data, component) {
     .join("");
 }
 
-loadSwiperSlide(serviceCard, document.querySelector(".service-swiper-wrapper"));
+window.addEventListener("load", () => {
+  loadSwiperSlide(
+    serviceCard,
+    document.querySelector(".service-swiper-wrapper")
+  );
+});
