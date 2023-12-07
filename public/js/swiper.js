@@ -13,11 +13,23 @@ const homeSwiper = new Swiper(".home-swiper-main", {
 });
 
 const serviceSwiper = new Swiper(".service-swiper-main", {
-  slidesPerView: 3,
-  spaceBetween: 30,
   grabCursor: true,
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
+  },
+  breakpoints: {
+    640: {
+      slidesPerView: 1,
+      spaceBetween: 20,
+    },
+    992: {
+      slidesPerView: 2,
+      spaceBetween: 40,
+    },
+    1024: {
+      slidesPerView: 3,
+      spaceBetween: 50,
+    },
   },
 });
