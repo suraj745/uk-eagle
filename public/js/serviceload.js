@@ -31,12 +31,7 @@ const serviceCard = [
   },
 ];
 
-// document.querySelector(
-//   ".service-tail"
-// ).innerHTML = ``;
-
 function loadSwiperSlide(data, component) {
-  console.log(component);
   component.innerHTML = data
     .map((value, index) => {
       let head2;
@@ -78,9 +73,4 @@ function loadSwiperSlide(data, component) {
     .join("");
 }
 
-window.addEventListener("load", () => {
-  loadSwiperSlide(
-    serviceCard,
-    document.querySelector(".service-swiper-wrapper")
-  );
-});
+loadSwiperSlide(serviceCard, document.querySelector(".service-swiper-wrapper"));
