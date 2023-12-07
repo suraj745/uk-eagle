@@ -136,6 +136,11 @@
 .home-swiper {
   .swiper-slide {
     position: relative;
+    overflow: hidden;
+    height: calc(100vh - 9rem);
+    & > img {
+      width: 100%;
+    }
   }
   .swiper-slide::after {
     content: " ";

@@ -114,12 +114,14 @@ document.querySelector(
             <li class="social-icons">
               <a href="#"><ion-icon class='text-white' name="logo-linkedin"></ion-icon></a>
   
-              <a href="#">
-                <ion-icon class='text-white' name="logo-youtube"></ion-icon>
-              </a>
   
               <a href="#">
                 <ion-icon class='text-white' name="logo-twitter"></ion-icon>
+              </a>
+
+              
+              <a href="#">
+                <ion-icon class='text-white' name="logo-youtube"></ion-icon>
               </a>
             </li>
           </ul>
@@ -129,7 +131,7 @@ document.querySelector(
   
     <section class="row py-5">
       <p class="text-white text-center py-5">
-        © Rights Reserved UK EAGLE
+        2022 © All Rights Reserved By UK EAGLE
       </p>
     </section>
   </section>

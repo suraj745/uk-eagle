@@ -18,6 +18,7 @@ const serviceSwiper = new Swiper(".service-swiper-main", {
     el: ".swiper-pagination",
     clickable: true,
   },
+  loop: "infinite",
   breakpoints: {
     640: {
       slidesPerView: 1,

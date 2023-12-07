@@ -92,3 +92,12 @@ navSlider();
         </section>
       </section> */
 }
+
+function passNavHeight(navHeight) {
+  document.documentElement.style.setProperty(
+    "--navbar-height",
+    `${navHeight}rem`
+  );
+}
+
+passNavHeight(document.querySelector("nav").offsetHeight);
