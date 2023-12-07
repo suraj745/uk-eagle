@@ -315,6 +315,9 @@
 .section-3-card {
   max-width: 30rem;
   padding: 1rem !important;
+  @include media("<=576px") {
+    max-width: 100%;
+  }
 
   &:hover {
     & > li > * {
