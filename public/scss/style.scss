@@ -523,9 +523,7 @@
   }
 
   .swiper-wrapper {
-    min-height: 90vh;
-    display: flex;
-    align-items: center;
+    min-height: 75vh !important;
   }
 
   .swiper-slide {
@@ -534,14 +532,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
     #home-card {
       max-width: 35rem;
-      min-height: 50rem;
+
       & > img {
         height: 25rem;
         object-fit: cover;
       }
     }
+  }
+  .swiper-pagination {
+    bottom: 0 !important;
   }
 
   .swiper-pagination-bullet {
