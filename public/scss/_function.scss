@@ -72,7 +72,7 @@ $primary-time: 0.3s;
   text-transform: capitalize;
 
   transition: 0.2s;
-  font-size: clamp(1rem, 1.5rem, 1vw);
+  font-size: clamp(1.2rem, 1.5rem, 1vw);
 
   &:hover {
     background-color: $secondary-color;

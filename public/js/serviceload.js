@@ -43,8 +43,8 @@ function loadSwiperSlide(data, component) {
         head2 = value.head;
       }
 
-      if (value.para.length >= 120) {
-        para2 = value.para.slice(0, 120);
+      if (value.para.length >= 100) {
+        para2 = value.para.slice(0, 100);
       } else {
         para2 = value.para;
       }

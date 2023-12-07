@@ -10,7 +10,7 @@ document.querySelector(
           <img src="/images/logo.png" alt="" />
         </li>
       </ul>
-      <ul class="col-lg-8 col-xl-6 nav-menus" data-mobnav="deactive">
+      <ul class="col-lg-10 col-xl-7 nav-menus" data-mobnav="deactive">
         <li class="nav-menu-item"><a href="#">home</a></li>
         <li class="nav-menu-item dropdown-center">
           <a
@@ -18,7 +18,7 @@ document.querySelector(
             data-bs-toggle="dropdown"
             aria-expanded="false"
             href="#"
-            >about us
+            >our business
           </a>
   
           <ul id="dropdown1" class="dropdown-menu">
@@ -35,6 +35,7 @@ document.querySelector(
         </li>
         <li class="nav-menu-item"><a href="#">news</a></li>
         <li class="nav-menu-item"><a href="#">contact us</a></li>
+        <li class="nav-menu-item"><a href="#">about us</a></li>
         <li class="nav-menu-item"><a href="#">subscribe</a></li>
         <li class="nav-menu-item"><a href="#">social</a></li>
       </ul>
@@ -81,7 +82,7 @@ document.querySelector(
         <section class="footer-lists">
           <ul class="footer-list2">
             <li><p>Company</p></li>
-            <li><a href="#">About Us</a></li>
+            <li><a href="#">Our Business</a></li>
             <li><a href="#">Leadership Team </a></li>
             <li><a href="#"> News & Media</a></li>
             <li><a href="#"> Case Studies</a></li>
@@ -111,14 +112,14 @@ document.querySelector(
           <ul class="footer-social-link">
             <li><p>Social Links</p></li>
             <li class="social-icons">
-              <a href="#"><ion-icon name="logo-instagram"></ion-icon> </a>
+              <a href="#"><ion-icon class='text-white' name="logo-linkedin"></ion-icon></a>
   
               <a href="#">
-                <ion-icon name="logo-facebook"></ion-icon>
+                <ion-icon class='text-white' name="logo-youtube"></ion-icon>
               </a>
   
               <a href="#">
-                <ion-icon name="logo-twitter"></ion-icon>
+                <ion-icon class='text-white' name="logo-twitter"></ion-icon>
               </a>
             </li>
           </ul>
@@ -128,7 +129,7 @@ document.querySelector(
   
     <section class="row py-5">
       <p class="text-white text-center py-5">
-        © 2022 Solatec, All Rights Reserved UK EAGLE
+        © Rights Reserved UK EAGLE
       </p>
     </section>
   </section>
