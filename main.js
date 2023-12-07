@@ -94,10 +94,8 @@ navSlider();
 }
 
 function passNavHeight(navHeight) {
-  document.documentElement.style.setProperty(
-    "--navbar-height",
-    `${navHeight}rem`
-  );
+  console.log(navHeight + "rem".replace(0, " "));
+  document.documentElement.style.setProperty("--nav", navHeight + "rem");
 }
 
 passNavHeight(document.querySelector("nav").offsetHeight);
