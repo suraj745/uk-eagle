@@ -559,3 +559,25 @@ $nav-height: 50rem; // slider
     height: 1.2rem;
   }
 }
+
+/* ---------------------------- business section ---------------------------- */
+
+.business-tail-row {
+  align-items: center;
+  @include media(">=992px") {
+    min-height: 60vh;
+  }
+}
+
+.business-accordion {
+  .accordion-heading {
+    padding-block: 2rem;
+    font-size: 1.8rem !important;
+    font-weight: bold;
+  }
+
+  .accordion-button[aria-expanded="true"] {
+    color: white;
+    background-color: $primary-color;
+  }
+}
