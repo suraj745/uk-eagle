@@ -1,5 +1,5 @@
 import { select } from "./selector";
-import { loadSwiperSlide } from "./serviceload";
+import { loadSwiperSlide } from "/public/js/customfunction";
 
 const businessCardData = [
   {
@@ -34,13 +34,15 @@ const businessCardData = [
   },
 ];
 
-function comp(value, head2, para2) {
+function comp(...args) {
+  const { head2, para2 } = args[0];
+  const { img } = args[0].value;
   return `
     <div class="swiper-slide d-flex justify-content-center">
     <div  class="card home-card text-center">
       <img
         id="home-card-top"
-        src="${value.img}"
+        src="${img}"
         class="card-img-top"
         alt="..."
       />

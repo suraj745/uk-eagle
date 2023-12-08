@@ -18,7 +18,15 @@ export function loadSwiperSlide(data, select, component) {
         para2 = value.para;
       }
 
-      return component(value, head2, para2);
+      return component({ value, head2, para2 });
     })
     .join("");
+}
+
+export function callOnPath(path, ...func) {
+  if (window.location.pathname === path) {
+    func.forEach((value) => {
+      value;
+    });
+  }
 }

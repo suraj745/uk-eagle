@@ -1,4 +1,5 @@
 import { select } from "./selector";
+import { callOnPath, loadSwiperSlide } from "./customfunction";
 const serviceCard = [
   {
     img: "https://www.promap.co.uk/wp-content/uploads/2019/10/2B-Social-Infrastructure-PM-WEB.jpg",
@@ -32,13 +33,16 @@ const serviceCard = [
   },
 ];
 
-function comp(value, head2, para2) {
+function comp(...args) {
+  const { head2, para2 } = args[0];
+  const { img } = args[0].value;
+
   return `
   <div class="swiper-slide">
   <div  class="card home-card">
     <img
       id="home-card-top"
-      src="${value.img}"
+      src="${img}"
       class="card-img-top"
       alt="..."
     />
@@ -53,28 +57,6 @@ function comp(value, head2, para2) {
     </div>
   </div>
 </div>`;
-}
-export function loadSwiperSlide(data, select, component) {
-  select.innerHTML = data
-    .map((value, index) => {
-      let head2;
-      let para2;
-
-      if (value.head.length >= 22) {
-        head2 = value.head.slice(0, 22);
-      } else {
-        head2 = value.head;
-      }
-
-      if (value.para.length >= 100) {
-        para2 = value.para.slice(0, 100);
-      } else {
-        para2 = value.para;
-      }
-
-      return component(value, head2, para2);
-    })
-    .join("");
 }
 
 loadSwiperSlide(serviceCard, select(".service-swiper-wrapper"), comp);

@@ -1,0 +1,34 @@
+@import "./function.scss";
+
+@import "./reset";
+@import "./function.scss";
+
+.banner-outer {
+  background-image: url("/public/images/image/page-titles/1.jpg");
+  object-fit: cover;
+  object-position: center center;
+  position: relative;
+  z-index: 0;
+  @include flex(center, center);
+  &::after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: #25247bad;
+    z-index: 1;
+  }
+
+  .banner-row {
+    height: 50vh;
+    position: relative;
+    z-index: 2;
+  }
+}
+
+.ours-cards {
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px,
+    rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+}

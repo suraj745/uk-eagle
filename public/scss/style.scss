@@ -1,5 +1,6 @@
 @import "./reset";
 @import "./function.scss";
+@import "./about.scss";
 
 // navbar
 
@@ -608,3 +609,36 @@ $nav-height: 50rem; // slider
 //     background-color: $primary-color;
 //   }
 // }
+
+.scroll-up {
+  position: fixed;
+  background-color: $secondary-color;
+  color: white;
+  width: 4rem;
+  height: 4rem;
+  @include flex(center, center);
+  right: 3rem;
+  bottom: 5rem;
+  z-index: 99999;
+  border-radius: 100%;
+  font-size: 3rem;
+  transition: 0.4s;
+
+  & :hover {
+    scale: 1.2;
+  }
+}
+
+/* -------------------------------- // loader ------------------------------- */
+
+.page-loader {
+  min-height: 100vh;
+  width: 100%;
+  background-color: $primary-color;
+  position: fixed;
+  left: 0;
+  top: 0;
+  @include flex(center, center);
+  z-index: 999999;
+  color: white;
+}

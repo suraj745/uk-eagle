@@ -13,8 +13,21 @@ $secondary-color: #8dc63f;
 $tw: white;
 $bg-white: white;
 
+.responsive-img {
+  width: 100%;
+}
+
 // transition
+.get-margin {
+  & :not(:nth-child(1)) {
+    margin-top: 1rem;
+  }
+}
 $primary-time: 0.3s;
+.banner-heading {
+  font-size: clamp(5rem, 7rem, 6vw);
+  font-weight: bold;
+}
 
 .head-m {
   font-size: clamp(3rem, 6rem, 5vw);

@@ -13,7 +13,6 @@
     />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
-    <link rel="stylesheet" href="/public/scss/style.scss" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
@@ -29,16 +28,33 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="/public/scss/style.scss" />
   </head>
 
   <body>
     <!-- Main -->
     <div id="app">
       <!-- slider -->
+      <section class="page-loader">
+        <div
+          class="spinner-border"
+          style="width: 6rem; height: 6rem"
+          role="status"
+        ></div>
+      </section>
 
-      <nav></nav>
+      <a href="#" class="scroll-up">
+        <ion-icon
+          class="arrow-icon"
+          name="chevron-up-circle-outline"
+        ></ion-icon>
+      </a>
 
-      <section class="container-fluid px-0 slider-outer home-swiper">
+      <nav class="nav"></nav>
+
+      <section
+        class="container-fluid px-0 scroll-observer slider-outer home-swiper"
+      >
         <div class="swiper mySwiper home-swiper-main">
           <div class="swiper-wrapper">
             <section class="swiper-slide">
@@ -106,8 +122,6 @@
                 </section>
               </section>
             </section>
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
           </div>
         </div>
       </section>
@@ -154,22 +168,6 @@
                 </video>
               </section>
             </section>
-            <!-- <section class="col col-xl-3 pt-5 lower-side">
-              <ul class="col text-center counters">
-                <li class="counter-container">
-                  <h1 class="font-xl">6,154</h1>
-                  <p class="font-sm">Project Completed in last 5 years</p>
-                </li>
-                <li class="counter-container">
-                  <h1 class="font-xl">2,512</h1>
-                  <p class="font-sm">Qualified Employees & Workers With Us</p>
-                </li>
-                <li class="counter-container">
-                  <h1 class="font-xl">214</h1>
-                  <p class="font-sm">Awards Milestones Awarded To Us</p>
-                </li>
-              </ul>
-            </section> -->
           </section>
         </section>
       </section>
@@ -212,47 +210,6 @@
           </section>
         </section>
       </section>
-
-      <!-- <section class="container-fluid padding-tp-130 business-outer">
-        <section class="container business-inner">
-          <section class="row gap-5 flex-column service-row">
-            <section class="col business-head">
-              <h1 class="main-heading text-center">Our Business</h1>
-            </section>
-            <section class="col business-tail">
-              <section
-                class="row flex-column gap-5 gap-lg-0 flex-lg-row justify-content-between business-tail-row"
-              >
-                <ul class="col col-xl-5 business-tail-left">
-                  <li>
-                    <h1 class="fw-bold main-heading fs-1">Agro</h1>
-                  </li>
-                  <li class="mt-2">
-                    <p>
-                      Welcome to UK Eagle: Nurturing Agro-ecosystem and
-                      Communities. At UK Eagle, we stand at the forefront of the
-                      agro-products industry, seamlessly blending tradition with
-                      cutting-edge solutions. Our commitment is clear: to
-                      provide farmers with the tools they need to cultivate
-                      success. From advanced silos to state-of-the-art cold milk
-                      rushing and refining units, alongside a diverse array of
-                      seeds and premium edible oils, UK Eagle is your trusted
-                      partner in cultivating a sustainable and prosperous
-                      agricultural future.
-                    </p>
-                  </li>
-                </ul>
-                <section class="col col-xl-6 business-tail-right">
-                  <div
-                    class="accordion business-accordion"
-                    id="accordionFlushExample"
-                  ></div>
-                </section>
-              </section>
-            </section>
-          </section>
-        </section>
-      </section> -->
 
       <section class="container-fluid padding-130 section-3-outer">
         <section class="container section-3-inner">
@@ -297,7 +254,7 @@
       </section>
     </div>
 
-    <footer></footer>
+    <footer class="footer"></footer>
     <!-- scripts -->
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
@@ -320,8 +277,6 @@
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
-    <script type="module" src="main.js"></script>
-    <script type="module" src="./public/js/gsap.js"></script>
+    <script type="module" src="./main.js"></script>
   </body>
 </html>

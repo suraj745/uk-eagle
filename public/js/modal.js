@@ -118,23 +118,3 @@ function anyWhereClose(modal) {
 
 loadCard();
 cardClickModal();
-// modal.innerHTML = cards
-//   .map((value, index) => {
-//     return `<section class="main-modal-outer">
-//   <section class="main-modal-inner">
-//     <section
-//       class="main-modal-row p-5 justify-content-center align-items-center"
-//     >
-//       <section class="text-end p-3">
-//         <i
-//           class="modal-toggle font-xl text-white fa-solid fa-xmark"
-//         ></i>
-//       </section>
-//       <ul class="main-modal-content">
-//         <li>hi</li>
-//       </ul>
-//     </section>
-//   </section>
-// </section>`;
-//   })
-//   .join("");

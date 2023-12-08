@@ -1,17 +1,19 @@
-document.querySelector(
+import { select } from "./selector";
+
+select(
   "nav"
-).innerHTML = ` <section class="container-fluid nav-outer main-navbar">
+).innerHTML = `<section class="container-fluid nav-outer main-navbar">
   <section class="container nav-inner">
     <section class="row nav-row">
       <ul
         class="col-5 col-md-3 col-lg-2 col-xl-2 nav-logo d-flex align-items-center"
       >
         <li>
-          <img src="/images/logo.png" alt="" />
+       <a href="/">   <img src="/images/logo.png" alt="" /></a>
         </li>
       </ul>
       <ul class="col-lg-10 col-xl-9 nav-menus" data-mobnav="deactive">
-        <li class="nav-menu-item"><a href="#">home</a></li>
+        <li class="nav-menu-item"><a href="/">home</a></li>
         <li class="nav-menu-item dropdown-center">
           <a
             class="dropdown-toggle boot-dropdown"
@@ -37,7 +39,7 @@ document.querySelector(
         </li>
         <li class="nav-menu-item"><a href="#">news</a></li>
         <li class="nav-menu-item"><a href="#">contact us</a></li>
-        <li class="nav-menu-item"><a href="#">about us</a></li>
+        <li class="nav-menu-item"><a href="/pages/about-us.html">about us</a></li>
         <li class="nav-menu-item"><a href="#">subscribe</a></li>
         <li class="nav-menu-item"><a href="#">social</a></li>
       </ul>
@@ -49,7 +51,7 @@ document.querySelector(
   </section>
   </section>`;
 
-document.querySelector(
+select(
   "footer"
 ).innerHTML = `<section class="container-fluid padding-tp-130 footer-outer">
   <section class="container footer-inner">
