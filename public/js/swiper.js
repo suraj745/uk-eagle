@@ -14,9 +14,9 @@ const homeSwiper = new Swiper(".home-swiper-main", {
 
 const serviceSwiper = new Swiper(".service-swiper-main", {
   grabCursor: true,
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
   },
   loop: "infinite",
   breakpoints: {

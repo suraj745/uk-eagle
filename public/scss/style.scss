@@ -525,6 +525,12 @@ $nav-height: 50rem; // slider
 
 .service-outer {
   background-color: #25237a;
+  position: relative !important;
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    color: white !important;
+  }
 }
 
 .service-tail {
@@ -558,6 +564,11 @@ $nav-height: 50rem; // slider
     height: 25rem;
     object-fit: cover;
   }
+}
+
+.business-outer .swiper-button-next,
+.swiper-button-prev {
+  color: $primary-color !important;
 }
 /* ---------------------------- business section ---------------------------- */
 
