@@ -4,7 +4,7 @@ import { loadSwiperSlide } from "./serviceload";
 const businessCardData = [
   {
     img: "/images/business/Agriculture.jpg",
-    head: "Agri",
+    head: "Agriculture",
     para: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, ut amet magnam modi, incidunt quaerat accusantium iusto tenetur voluptatum tempore at quasi temporibus neque expedita distinctio blanditiis cumque inventore nesciunt unde aspernatur. Quos est blanditiis necessitatibus repellat pariatur, consequatur nobis esse, corrupti architecto commodi, placeat corporis similique fugiat itaque adipisci.",
   },
   {
@@ -14,12 +14,12 @@ const businessCardData = [
   },
   {
     img: "/images/business/Infrastructure.jpg",
-    head: "Infra",
+    head: "Infrastructure",
     para: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, ut amet magnam modi, incidunt quaerat accusantium iusto tenetur voluptatum tempore at quasi temporibus neque expedita distinctio blanditiis cumque inventore nesciunt unde aspernatur. Quos est blanditiis necessitatibus repellat pariatur, consequatur nobis esse, corrupti architecto commodi, placeat corporis similique fugiat itaque adipisci.",
   },
   {
     img: "/images/business/Pharmacy.jpg",
-    head: "Pharma",
+    head: "Pharmaceutical",
     para: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, ut amet magnam modi, incidunt quaerat accusantium iusto tenetur voluptatum tempore at quasi temporibus neque expedita distinctio blanditiis cumque inventore nesciunt unde aspernatur. Quos est blanditiis necessitatibus repellat pariatur, consequatur nobis esse, corrupti architecto commodi, placeat corporis similique fugiat itaque adipisci.",
   },
   {
@@ -36,8 +36,8 @@ const businessCardData = [
 
 function comp(value, head2, para2) {
   return `
-    <div class="swiper-slide">
-    <div  class="card home-card">
+    <div class="swiper-slide d-flex justify-content-center">
+    <div  class="card home-card text-center">
       <img
         id="home-card-top"
         src="${value.img}"
