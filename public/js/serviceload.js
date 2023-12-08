@@ -1,3 +1,4 @@
+import { select } from "./selector";
 const serviceCard = [
   {
     img: "https://www.promap.co.uk/wp-content/uploads/2019/10/2B-Social-Infrastructure-PM-WEB.jpg",
@@ -31,8 +32,30 @@ const serviceCard = [
   },
 ];
 
-function loadSwiperSlide(data, component) {
-  component.innerHTML = data
+function comp(value, head2, para2) {
+  return `
+  <div class="swiper-slide">
+  <div  class="card home-card">
+    <img
+      id="home-card-top"
+      src="${value.img}"
+      class="card-img-top"
+      alt="..."
+    />
+    <div class="card-body">
+      <h5 class="main-heading fs-2 card-heading">${head2}</h5>
+      <p class="card-text fs-4">
+        ${para2}....
+      </p>
+      <a href="#" class="btn default-button">
+        Learn More
+      </a>
+    </div>
+  </div>
+</div>`;
+}
+export function loadSwiperSlide(data, select, component) {
+  select.innerHTML = data
     .map((value, index) => {
       let head2;
       let para2;
@@ -49,28 +72,9 @@ function loadSwiperSlide(data, component) {
         para2 = value.para;
       }
 
-      return `
-      <div class="swiper-slide">
-        <div id="home-card" class="card">
-          <img
-            id="home-card-top"
-            src="${value.img}"
-            class="card-img-top"
-            alt="..."
-          />
-          <div class="card-body">
-            <h5 class="main-heading fs-2 card-heading">${head2}</h5>
-            <p class="card-text fs-4">
-              ${para2}....
-            </p>
-            <a href="#" class="btn default-button">
-              Learn More
-            </a>
-          </div>
-        </div>
-      </div>`;
+      return component(value, head2, para2);
     })
     .join("");
 }
 
-loadSwiperSlide(serviceCard, document.querySelector(".service-swiper-wrapper"));
+loadSwiperSlide(serviceCard, select(".service-swiper-wrapper"), comp);

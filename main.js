@@ -2,8 +2,7 @@ import $ from "jquery";
 import "/public/js/swiper";
 import "/public/js/loader";
 import "/public/js/modal";
-import "/public/js/serviceload";
-import "/public/js/businessloader";
+import "/public/js/businessload";
 
 function navSlider() {
   const navMenus = document.querySelector(".nav-menus");
