@@ -18,7 +18,7 @@ document.querySelector(
             data-bs-toggle="dropdown"
             aria-expanded="false"
             href="#"
-            >our services
+            >our business
           </a>
   
           <ul id="dropdown1" class="dropdown-menu">
