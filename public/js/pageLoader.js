@@ -1,5 +1,6 @@
 import { select } from "./selector";
-
+import "./navFunction";
+import { stickyNavbar, navSlider } from "./navFunction";
 select(
   "nav"
 ).innerHTML = `<section class="container-fluid nav-outer main-navbar">
@@ -140,3 +141,6 @@ select(
     </section>
   </section>
   </section>`;
+
+stickyNavbar();
+navSlider();
