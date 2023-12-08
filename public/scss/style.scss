@@ -531,6 +531,10 @@ $nav-height: 50rem; // slider
   .swiper-button-next,
   .swiper-button-prev {
     color: white !important;
+
+    @include media("<=576px") {
+      display: none;
+    }
   }
 }
 

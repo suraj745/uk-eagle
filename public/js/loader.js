@@ -10,7 +10,7 @@ document.querySelector(
           <img src="/images/logo.png" alt="" />
         </li>
       </ul>
-      <ul class="col-lg-10 col-xl-7 nav-menus" data-mobnav="deactive">
+      <ul class="col-lg-10 col-xl-9 nav-menus" data-mobnav="deactive">
         <li class="nav-menu-item"><a href="#">home</a></li>
         <li class="nav-menu-item dropdown-center">
           <a
@@ -30,6 +30,8 @@ document.querySelector(
             <li><a class="dropdown-item" href="#">Logistics</a></li>
           </ul>
         </li>
+        <li class="nav-menu-item"><a href="#">Our Services</a></li>
+
         <li class="nav-menu-item">
           <a class=" " href="#">Sustainability </a>
         </li>
