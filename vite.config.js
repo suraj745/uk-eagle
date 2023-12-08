@@ -6,8 +6,8 @@ export default {
     rollupOptions: {
       input: {
         index: "./main.js", // Common entry point for shared modules
-        homePage: "/pages/about-us.html", // Entry point for index.html
-        // aboutPage: "/public/pages/about-us.html", // Entry point for about.html
+        homePage: "/pages/index.html", // Entry point for index.html
+        aboutPage: "/pages/about-us.html", // Entry point for about.html
         // blogPage: "/pages/blog.html",
         // contactPage: "/pages/contact.html",
         // galleryPage: "/pages/gallery.html",
