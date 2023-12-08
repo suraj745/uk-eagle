@@ -523,13 +523,22 @@ $nav-height: 50rem; // slider
 
 /* ------------------------------- servcies ------------------------------ */
 
-.service-outer {
+.service-outer,
+.business-outer {
   background-color: #25237a;
   position: relative !important;
 
   .swiper-button-next,
   .swiper-button-prev {
     color: white !important;
+  }
+}
+
+.business-outer {
+  background-color: white !important;
+  .swiper-button-next,
+  .swiper-button-prev {
+    color: $primary-color !important;
   }
 }
 
@@ -566,10 +575,14 @@ $nav-height: 50rem; // slider
   }
 }
 
-.business-outer .swiper-button-next,
-.swiper-button-prev {
-  color: $primary-color !important;
-}
+// .business-tail {
+//   position: relative;
+//   .swiper-button-next,
+//   .swiper-button-prev {
+//     color: $primary-color !important;
+//   }
+// }
+
 /* ---------------------------- business section ---------------------------- */
 
 // .business-tail-row {
