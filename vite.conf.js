@@ -4,7 +4,7 @@ export default {
       input: {
         index: "/main.js", // Common entry point for shared modules
         homePage: "index.html", // Entry point for index.html
-        aboutPage: "/public/pages/about-us.html",
+        aboutPage: "/pages/about-us.html",
         // blogPage: "/pages/blog.html",
         // contactPage: "/pages/contact.html",
         // galleryPage: "/pages/gallery.html",
