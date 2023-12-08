@@ -5,12 +5,12 @@ const businessCardData = [
   {
     img: "/images/business/Agriculture.jpg",
     head: "Agriculture",
-    para: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, ut amet magnam modi, incidunt quaerat accusantium iusto tenetur voluptatum tempore at quasi temporibus neque expedita distinctio blanditiis cumque inventore nesciunt unde aspernatur. Quos est blanditiis necessitatibus repellat pariatur, consequatur nobis esse, corrupti architecto commodi, placeat corporis similique fugiat itaque adipisci.",
+    para: "At UK Eagle, we stand at the forefront of the agro-products industry, seamlessly blending tradition with cutting-edge solutions",
   },
   {
     img: "/images/business/Energy.jpg",
     head: "Energy",
-    para: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, ut amet magnam modi, incidunt quaerat accusantium iusto tenetur voluptatum tempore at quasi temporibus neque expedita distinctio blanditiis cumque inventore nesciunt unde aspernatur. Quos est blanditiis necessitatibus repellat pariatur, consequatur nobis esse, corrupti architecto commodi, placeat corporis similique fugiat itaque adipisci.",
+    para: "At UK Eagle, we are dedicated to driving innovation and excellence in the energy sector. Established in 2023,",
   },
   {
     img: "/images/business/Infrastructure.jpg",
