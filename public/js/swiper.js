@@ -2,6 +2,10 @@ const homeSwiper = new Swiper(".home-swiper-main", {
   spaceBetween: 30,
   effect: "fade",
   grabCursor: true,
+  autoplay: {
+    delay: 2500,
+    disableOnInteraction: false,
+  },
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
@@ -19,6 +23,10 @@ const serviceSwiper = new Swiper(".service-swiper-main", {
     prevEl: ".swiper-button-prev",
   },
   loop: "infinite",
+  autoplay: {
+    delay: 2000,
+    disableOnInteraction: false,
+  },
   breakpoints: {
     640: {
       slidesPerView: 1,
