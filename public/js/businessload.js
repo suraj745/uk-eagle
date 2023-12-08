@@ -3,32 +3,32 @@ import { loadSwiperSlide } from "./serviceload";
 
 const businessCardData = [
   {
-    img: "/public/images/business/Agriculture.jpg",
+    img: "/images/business/Agriculture.jpg",
     head: "Agri",
     para: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, ut amet magnam modi, incidunt quaerat accusantium iusto tenetur voluptatum tempore at quasi temporibus neque expedita distinctio blanditiis cumque inventore nesciunt unde aspernatur. Quos est blanditiis necessitatibus repellat pariatur, consequatur nobis esse, corrupti architecto commodi, placeat corporis similique fugiat itaque adipisci.",
   },
   {
-    img: "/public/images/business/Energy.jpg",
+    img: "/images/business/Energy.jpg",
     head: "Energy",
     para: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, ut amet magnam modi, incidunt quaerat accusantium iusto tenetur voluptatum tempore at quasi temporibus neque expedita distinctio blanditiis cumque inventore nesciunt unde aspernatur. Quos est blanditiis necessitatibus repellat pariatur, consequatur nobis esse, corrupti architecto commodi, placeat corporis similique fugiat itaque adipisci.",
   },
   {
-    img: "/public/images/business/Infrastructure.jpg",
+    img: "/images/business/Infrastructure.jpg",
     head: "Infra",
     para: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, ut amet magnam modi, incidunt quaerat accusantium iusto tenetur voluptatum tempore at quasi temporibus neque expedita distinctio blanditiis cumque inventore nesciunt unde aspernatur. Quos est blanditiis necessitatibus repellat pariatur, consequatur nobis esse, corrupti architecto commodi, placeat corporis similique fugiat itaque adipisci.",
   },
   {
-    img: "/public/images/business/Pharmacy.jpg",
+    img: "/images/business/Pharmacy.jpg",
     head: "Pharma",
     para: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, ut amet magnam modi, incidunt quaerat accusantium iusto tenetur voluptatum tempore at quasi temporibus neque expedita distinctio blanditiis cumque inventore nesciunt unde aspernatur. Quos est blanditiis necessitatibus repellat pariatur, consequatur nobis esse, corrupti architecto commodi, placeat corporis similique fugiat itaque adipisci.",
   },
   {
-    img: "/public/images/business/Supermarket.jpg",
+    img: "/images/business/Supermarket.jpg",
     head: "Supermarkets",
     para: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, ut amet magnam modi, incidunt quaerat accusantium iusto tenetur voluptatum tempore at quasi temporibus neque expedita distinctio blanditiis cumque inventore nesciunt unde aspernatur. Quos est blanditiis necessitatibus repellat pariatur, consequatur nobis esse, corrupti architecto commodi, placeat corporis similique fugiat itaque adipisci.",
   },
   {
-    img: "/public/images/business/Logistics.jpg",
+    img: "/images/business/Logistics.jpg",
     head: "Logistics",
     para: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, ut amet magnam modi, incidunt quaerat accusantium iusto tenetur voluptatum tempore at quasi temporibus neque expedita distinctio blanditiis cumque inventore nesciunt unde aspernatur. Quos est blanditiis necessitatibus repellat pariatur, consequatur nobis esse, corrupti architecto commodi, placeat corporis similique fugiat itaque adipisci.",
   },
