@@ -9,7 +9,7 @@ export default {
         homePage: "/index.html", // Entry point for index.html
         aboutPage: "/pages/about-us.html", // Entry point for about.html
         // blogPage: "/pages/blog.html",
-        // contactPage: "/pages/contact.html",
+        contactPage: "/pages/contact-us.html",
         // galleryPage: "/pages/gallery.html",
         // leadershipPage: "/pages/leadership.html",
         // mediaPage: "/pages/media_coverage.html",

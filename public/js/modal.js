@@ -31,16 +31,15 @@ const cardData = [
   },
 ];
 
-function loadCard() {
-  const chooseUs = document.querySelector(".section-3-right");
+const chooseUs = document.querySelector(".section-3-right");
 
-  chooseUs.innerHTML = cardData
-    .map((value, index) => {
-      let para2;
-      if (value.para.length > 150) {
-        para2 = value.para.slice(0, 150);
-      }
-      return `<ul
+chooseUs.innerHTML = cardData
+  .map((value) => {
+    let para2;
+    if (value.para.length > 150) {
+      para2 = value.para.slice(0, 150);
+    }
+    return `<ul
       class="section-3-card flex-column d-flex justify-content-around align-items-between"
       >
       <li><ion-icon class='section-3-card-icon' name="${value.icon}"></ion-icon></li>
@@ -51,9 +50,8 @@ function loadCard() {
       </li>
       <li><a>Read More</a></li>
     </ul>`;
-    })
-    .join("");
-}
+  })
+  .join("");
 
 function cardClickModal() {
   document.querySelectorAll(".section-3-card").forEach((value) => {
@@ -116,5 +114,4 @@ function anyWhereClose(modal) {
   });
 }
 
-loadCard();
 cardClickModal();

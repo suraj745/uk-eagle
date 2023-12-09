@@ -39,7 +39,7 @@ select(
           <a class=" " href="#">Sustainability </a>
         </li>
         <li class="nav-menu-item"><a href="#">news</a></li>
-        <li class="nav-menu-item"><a href="#">contact us</a></li>
+        <li class="nav-menu-item"><a href="/pages/contact-us.html">contact us</a></li>
         <li class="nav-menu-item"><a href="/pages/about-us.html">about us</a></li>
         <li class="nav-menu-item"><a href="#">subscribe</a></li>
         <li class="nav-menu-item"><a href="#">social</a></li>
