@@ -41,7 +41,7 @@ $primary-time: 0.3s;
 }
 
 .padding-130 {
-  padding-block: 13rem;
+  padding-block: clamp(4rem, 13rem, 10vw);
 }
 
 .head-s {
@@ -56,7 +56,7 @@ $primary-time: 0.3s;
 }
 
 .padding-tp-130 {
-  padding-block-start: 13rem;
+  padding-block-start: clamp(4rem, 13rem, 10vw);
 }
 
 .heading-content {
@@ -66,7 +66,7 @@ $primary-time: 0.3s;
 }
 
 .padding-bt-130 {
-  padding-block-end: 13rem;
+  padding-block-end: clamp(4rem, 13rem, 10vw);
 }
 .font-xl {
   font-size: clamp(3rem, 6rem, 5vw);
