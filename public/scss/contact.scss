@@ -1,21 +1,21 @@
 @import "./function.scss";
 @import "./reset";
 
-.form-group {
-  & > input,
-  textarea,
-  select {
-    font-size: clamp(1.2rem, 1.6rem, 2vw);
-    padding-block: 1rem;
-  }
-
-  & > select {
-    & > option {
-      padding: 1rem;
-    }
-  }
-}
-
 .contact-form {
   border: 0.1rem solid rgb(162, 162, 162);
+
+  .form-group {
+    & > input,
+    textarea,
+    select {
+      font-size: clamp(1.2rem, 1.6rem, 2vw);
+      padding-block: 1rem;
+    }
+
+    & > select {
+      & > option {
+        padding: 1rem;
+      }
+    }
+  }
 }
