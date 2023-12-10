@@ -12,9 +12,13 @@
       padding-block: 1rem;
     }
 
+    & > textarea {
+      resize: none;
+    }
+
     & > select {
       & > option {
-        padding: 1rem;
+        padding-block: 2rem !important;
       }
     }
   }

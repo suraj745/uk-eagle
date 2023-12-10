@@ -230,10 +230,6 @@ $nav-height: 50rem; // slider
 }
 /* -------------------------------- section-2 ------------------------------- */
 
-.section-2 {
-  min-height: 100vh;
-}
-
 .counters {
   // & > :not(:nth-child(1)) {
   //   margin-top: 4rem;
@@ -620,6 +616,7 @@ $nav-height: 50rem; // slider
   @include flex(center, center);
   right: 3rem;
   bottom: 5rem;
+  display: none;
   z-index: 99999;
   border-radius: 100%;
   font-size: 3rem;

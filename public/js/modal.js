@@ -63,7 +63,7 @@ function cardClickModal() {
            >
              <section class="text-end p-3">
                <i
-                 class="modal-toggle font-xl text-white fa-solid fa-xmark"
+                 class="fa-solid fa-xmark modal-toggle font-xl text-white "
                ></i>
              </section>
              <ul class="main-modal-content">

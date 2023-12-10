@@ -8,7 +8,7 @@ export default {
         index: "./main.js", // Common entry point for shared modules
         homePage: "/index.html", // Entry point for index.html
         aboutPage: "/pages/about-us.html", // Entry point for about.html
-        // blogPage: "/pages/blog.html",
+        servicePage: "/pages/our-services.html",
         contactPage: "/pages/contact-us.html",
         // galleryPage: "/pages/gallery.html",
         // leadershipPage: "/pages/leadership.html",

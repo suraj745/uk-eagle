@@ -25,15 +25,15 @@ select(
           </a>
   
           <ul id="dropdown1" class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Agri</a></li>
+            <li><a class="dropdown-item" href="#">Agriculture</a></li>
             <li><a class="dropdown-item" href="#">Energy</a></li>
-            <li><a class="dropdown-item" href="#">Infra</a></li>
-            <li><a class="dropdown-item" href="#">Pharma</a></li>
+            <li><a class="dropdown-item" href="#">Infrastructure</a></li>
+            <li><a class="dropdown-item" href="#">Pharmaceutical</a></li>
             <li><a class="dropdown-item" href="#">Supermarkets</a></li>
             <li><a class="dropdown-item" href="#">Logistics</a></li>
           </ul>
         </li>
-        <li class="nav-menu-item"><a href="#">Our Services</a></li>
+        <li class="nav-menu-item"><a href="/pages/our-services.html">Our Services</a></li>
 
         <li class="nav-menu-item">
           <a class=" " href="#">Sustainability </a>
