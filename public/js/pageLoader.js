@@ -13,7 +13,7 @@ select(
        <a href="/">   <img src="/images/logo.png" alt="" /></a>
         </li>
       </ul>
-      <ul class="col-lg-7 col-xl-6 nav-menus" data-mobnav="deactive">
+      <ul class="col-lg-6 col-xl-4 nav-menus" data-mobnav="deactive">
         <li class="nav-menu-item"><a href="/">home</a></li>
         <li class="nav-menu-item dropdown-center">
           <a
@@ -33,7 +33,6 @@ select(
             <li><a class="dropdown-item" href="#">Logistics</a></li>
           </ul>
         </li>
-        <li class="nav-menu-item"><a href="#">Our Services</a></li>
         <li class="nav-menu-item"><a href="/pages/contact-us.html">contact us</a></li>
         <li class="nav-menu-item"><a href="/pages/about-us.html">about us</a></li>
       </ul>
@@ -80,7 +79,6 @@ select(
           <ul class="footer-list2">
             <li><p>Company</p></li>
             <li><a href="#">Our Business</a></li>
-            <li><a href="#">Our Services</a></li>
             <li><a href="#">Contact Us</a></li>
             <li><a href="#">About Us</a></li>
           </ul>
