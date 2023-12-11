@@ -1,3 +1,5 @@
+import { select } from "./selector";
+
 export function navSlider() {
   const navMenus = document.querySelector(".nav-menus");
   const hamburger = document.querySelector(".ham");

@@ -1,6 +1,7 @@
 import Lenis from "@studio-freight/lenis";
+import { select } from "./selector";
 
-const lenis = new Lenis();
+const lenis = new Lenis({ lerp: 0.1 });
 
 lenis.on("scroll", (e) => {
   console.log(e);
@@ -12,3 +13,7 @@ function raf(time) {
 }
 
 requestAnimationFrame(raf);
+
+document.querySelector(".scroll-up").addEventListener("click", (e) => {
+  lenis.scrollTo(document.querySelector(".hero-scroll"));
+});
