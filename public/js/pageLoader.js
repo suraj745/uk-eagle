@@ -13,7 +13,7 @@ select(
        <a href="/">   <img src="/images/logo.png" alt="" /></a>
         </li>
       </ul>
-      <ul class="col-lg-10 col-xl-9 nav-menus" data-mobnav="deactive">
+      <ul class="col-lg-7 col-xl-6 nav-menus" data-mobnav="deactive">
         <li class="nav-menu-item"><a href="/">home</a></li>
         <li class="nav-menu-item dropdown-center">
           <a
@@ -34,15 +34,8 @@ select(
           </ul>
         </li>
         <li class="nav-menu-item"><a href="/pages/our-services.html">Our Services</a></li>
-
-        <li class="nav-menu-item">
-          <a class=" " href="#">Sustainability </a>
-        </li>
-        <li class="nav-menu-item"><a href="#">news</a></li>
         <li class="nav-menu-item"><a href="/pages/contact-us.html">contact us</a></li>
         <li class="nav-menu-item"><a href="/pages/about-us.html">about us</a></li>
-        <li class="nav-menu-item"><a href="#">subscribe</a></li>
-        <li class="nav-menu-item"><a href="#">social</a></li>
       </ul>
   
       <section class="col-2 col-xl-4 nav-hamburger">
@@ -57,7 +50,6 @@ select(
 ).innerHTML = `<section class="container-fluid padding-tp-130 footer-outer">
   <section class="container footer-inner">
     <section class="row footer-row">
-      <section class="col footer-col">
         <ul class="footer-list">
           <li>
             <p class="fw-bold text-white">Quick Contact</p>
@@ -84,35 +76,26 @@ select(
           </li>
         </ul>
   
-        <section class="footer-lists">
+     
           <ul class="footer-list2">
             <li><p>Company</p></li>
             <li><a href="#">Our Business</a></li>
-            <li><a href="#">Leadership Team </a></li>
-            <li><a href="#"> News & Media</a></li>
-            <li><a href="#"> Case Studies</a></li>
-            <li><a href="#"> Our Projects </a></li>
-            <li><a href="#"> Contacts</a></li>
+            <li><a href="#">Our Services </a></li>
+            <li><a href="#"> Contact Us</a></li>
+            <li><a href="#"> About Us</a></li>
+          </ul>
+
+          <ul class="footer-list2">
+            <li><p>Our Business</p></li>
+            <li><a href="#">Agriculture</a></li>
+            <li><a href="#">Energy </a></li>
+            <li><a href="#"> Infrastructure</a></li>
+            <li><a href="#"> Pharmaceutical</a></li>
+            <li><a href="#"> Supermarkets</a></li>
+            <li><a href="#"> Logistics</a></li>
           </ul>
   
-          <ul class="footer-list2">
-            <li><p>Services</p></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Leadership Team </a></li>
-            <li><a href="#"> News & Media</a></li>
-            <li><a href="#"> Case Studies</a></li>
-            <li><a href="#"> Our Projects </a></li>
-            <li><a href="#"> Contacts</a></li>
-          </ul>
-          <ul class="footer-list2">
-            <li><p>Support</p></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Leadership Team </a></li>
-            <li><a href="#"> News & Media</a></li>
-            <li><a href="#"> Case Studies</a></li>
-            <li><a href="#"> Our Projects </a></li>
-            <li><a href="#"> Contacts</a></li>
-          </ul>
+          
   
           <ul class="footer-social-link">
             <li><p>Social Links</p></li>
@@ -130,9 +113,8 @@ select(
               </a>
             </li>
           </ul>
-        </section>
       </section>
-    </section>
+   
   
     <section class="row py-5">
       <p class="text-white text-center py-5">

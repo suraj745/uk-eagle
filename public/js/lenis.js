@@ -3,9 +3,7 @@ import { select } from "./selector";
 
 const lenis = new Lenis({ lerp: 0.1 });
 
-lenis.on("scroll", (e) => {
-  console.log(e);
-});
+lenis.on("scroll", (e) => {});
 
 function raf(time) {
   lenis.raf(time);

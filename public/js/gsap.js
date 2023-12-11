@@ -18,5 +18,3 @@ function pinScroll(trigger, pin) {
 mm.add("(min-width:992px)", () => {
   pinScroll(select(".section-3-outer"), select(".section-3-left"));
 });
-
-// intersection
