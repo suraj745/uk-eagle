@@ -1,4 +1,5 @@
 import $ from "jquery";
+import "/public/js/lenis";
 import "/public/js/screenload";
 import "/public/js/swipeUp";
 import "/public/js/swiper";
