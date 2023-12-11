@@ -5,7 +5,7 @@ select(
   "nav"
 ).innerHTML = `<section class="container-fluid nav-outer main-navbar">
   <section class="container nav-inner">
-    <section class="row nav-row">
+    <section class="row nav-row justify-content-between">
       <ul
         class="col-5 col-md-3 col-lg-2 col-xl-2 nav-logo d-flex align-items-center"
       >
