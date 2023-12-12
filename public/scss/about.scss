@@ -2,10 +2,23 @@
 @import "./reset";
 
 .banner-outer {
-  background-image: url("/public/images/image/page-titles/1.jpg");
-  object-fit: cover;
-  object-position: center center;
+  background-image: url("/public/images/about/UKEagle\ About\ Banner\ .jpg");
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0rem -20rem;
+
   position: relative;
+  @include media("<=1200px") {
+    background-position: 0rem -10rem;
+    @include media("<=768px") {
+      background-position: 0rem -5rem;
+      @include media("<=576px") {
+        background-position: 0rem 0rem;
+      }
+    }
+  }
+
   z-index: 0;
   @include flex(center, center);
   &::after {
@@ -15,7 +28,7 @@
     position: absolute;
     left: 0;
     bottom: 0;
-    background-color: #25247bad;
+    background-color: #25247b94;
     z-index: 1;
   }
 
