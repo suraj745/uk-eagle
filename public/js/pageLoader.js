@@ -54,24 +54,22 @@ select(
             <p class="fw-bold text-white">Quick Contact</p>
           </li>
           <li>
-            <p class="text-white-50">
-              If you have any questions or need help, feel free to contact
-              with our team.
-            </p>
+            <a class="text-white-50" href="mailto:sales@ukeagle.ae">
+            sales@ukeagle.ae
+            </a>
           </li>
   
           <li>
             <a
               class="text-decoration-none phone-number text-white-50"
-              href="tel:91 2738484838"
-              ><span></span>+91 27384 84838</a
+              href="tel:+971 52 835 3817"
+              ><span></span>+971 52 835 3817</a
             >
           </li>
   
           <li>
             <p class="text-white-50">
-              2307 Beverley Rd Brooklyn, New York 11226 United States.
-            </p>
+            Post Box No 112356 Dubai UAE</p>
           </li>
         </ul>
   
