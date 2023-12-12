@@ -673,3 +673,11 @@ $nav-height: 50rem; // slider
 ::view-transition-old {
   opacity: 0;
 }
+
+// dropdown pages styles
+
+.content-gap {
+  & > :not(:nth-child(1)) {
+    margin-top: 2rem;
+  }
+}

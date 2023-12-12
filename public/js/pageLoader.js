@@ -25,12 +25,12 @@ select(
           </a>
   
           <ul id="dropdown1" class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Agriculture</a></li>
-            <li><a class="dropdown-item" href="#">Energy</a></li>
-            <li><a class="dropdown-item" href="#">Infrastructure</a></li>
-            <li><a class="dropdown-item" href="#">Pharmaceutical</a></li>
-            <li><a class="dropdown-item" href="#">Supermarkets</a></li>
-            <li><a class="dropdown-item" href="#">Logistics</a></li>
+            <li><a class="dropdown-item" href="/pages/our-businesses/agriculture.html">Agriculture</a></li>
+            <li><a class="dropdown-item" href="/pages/our-businesses/energy.html">Energy</a></li>
+            <li><a class="dropdown-item" href="/pages/our-businesses/infrastructure.html">Infrastructure</a></li>
+            <li><a class="dropdown-item" href="/pages/our-businesses/pharmaceutical.html">Pharmaceutical</a></li>
+            <li><a class="dropdown-item" href="/pages/our-businesses/supermarkets.html">Supermarkets</a></li>
+            <li><a class="dropdown-item" href="/pages/our-businesses/logistics.html">Logistics</a></li>
           </ul>
         </li>
         <li class="nav-menu-item"><a href="/pages/contact-us.html">contact us</a></li>
@@ -83,12 +83,12 @@ select(
 
           <ul class="footer-list2">
             <li><p>Our Businesses</p></li>
-            <li><a href="#">Agriculture</a></li>
-            <li><a href="#">Energy </a></li>
-            <li><a href="#"> Infrastructure</a></li>
-            <li><a href="#"> Pharmaceutical</a></li>
-            <li><a href="#"> Supermarkets</a></li>
-            <li><a href="#"> Logistics</a></li>
+            <li><a href="/pages/our-businesses/agriculture.html">Agriculture</a></li>
+            <li><a href="/pages/our-businesses/energy.html">Energy </a></li>
+            <li><a href="/pages/our-businesses/infrastructure.html"> Infrastructure</a></li>
+            <li><a href="/pages/our-businesses/pharmaceutical.html"> Pharmaceutical</a></li>
+            <li><a href="/pages/our-businesses/supermarkets.html"> Supermarkets</a></li>
+            <li><a href="/pages/our-businesses/logistics.html"> Logistics</a></li>
           </ul>
   
           

@@ -31,7 +31,7 @@
     <link rel="stylesheet" href="/public/scss/style.scss" />
   </head>
 
-  <body>
+  <body data-barba="wrapper">
     <!-- Main -->
     <div id="app">
       <!-- slider -->
@@ -48,32 +48,64 @@
           class="arrow-icon"
           name="chevron-up-circle-outline"
         ></ion-icon>
-      </a> 
+      </a>
 
       <nav class="nav"></nav>
-      <section
-        class="hero-scroll container-fluid padding-130 px-0 scroll-observer banner-outer"
-      >
-        <section class="container banner-inner">
-          <section
-            class="row justify-content-center align-items-center banner-row"
-          >
-            <section class="col-lg-6 text-center">
-              <h1 class="banner-heading text-center text-white">
-                Our Services
-              </h1>
+      <main data-barba="container" data-barba-namespace="about-us">
+        <section
+          class="hero-scroll container-fluid padding-130 px-0 scroll-observer banner-outer"
+        >
+          <section class="container banner-inner">
+            <section
+              class="row justify-content-center align-items-center banner-row"
+            >
+              <section class="col-lg-6 text-center">
+                <h1 class="banner-heading text-center text-white">
+                  Agriculture
+                </h1>
+              </section>
             </section>
           </section>
         </section>
-      </section>
 
-      <section class="container-fluid contact-us-outer">
-        <section class="container contact-us-inner">
-          <section class="row contact-us-row">
-            <section class="col contact-us-left"></section>
+        <section class="container-fluid about-outer padding-130">
+          <section class="container about-innner">
+            <section
+              class="row about-row align-items-center justify-content-between flex-column flex-lg-row-reverse gap-5 gap-lg-0"
+            >
+              <section class="col col-lg-6 about-left">
+                <img
+                  class="responsive-img"
+                  src="/images/business/Agriculture.jpg"
+                  alt=""
+                />
+              </section>
+
+              <ul class="about-right content-gap col col-lg-6 get-margin">
+                <li>
+                  <h2 class="main-heading">
+                    Growing a Brighter Future for Agriculture
+                  </h2>
+                </li>
+                <li>
+                  <p>
+                    At UKEagle, we understand the challenges faced by modern-day
+                    agriculture. Therefore are dedicated to providing our
+                    farmers with comprehensive solutions that empower them to
+                    provide us with the best produce.
+                    <br class="content-responsive" />
+                    <br />
+                    Our agricultural offerings from Silos to Cold Milk Rushing
+                    units to refining units are designed to elevate both
+                    productivity and sustainability. We also offer a range of
+                    products like premium seeds, and high-quality edible oils.
+                  </p>
+                </li>
+              </ul>
+            </section>
           </section>
         </section>
-      </section>
+      </main>
       <footer class="footer"></footer>
     </div>
 
