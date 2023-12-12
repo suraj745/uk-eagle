@@ -681,3 +681,34 @@ $nav-height: 50rem; // slider
     margin-top: 2rem;
   }
 }
+
+.infra-tab {
+  .nav-link {
+    color: black !important;
+    &.active {
+      background-color: $primary-color !important;
+      color: white !important;
+    }
+  }
+}
+
+.infra-nav-tab-img {
+  height: 40rem;
+  object-fit: cover;
+}
+
+.infra-tab {
+  display: grid;
+
+  grid-template-columns: repeat(4, auto);
+  justify-content: center;
+  column-gap: 2rem;
+
+  .nav-link {
+    font-size: clamp(1rem, 1.5rem, 2vw);
+  }
+
+  @include media("<=992px") {
+    grid-template-columns: repeat(2, auto);
+  }
+}
