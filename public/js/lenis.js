@@ -1,5 +1,4 @@
 import Lenis from "@studio-freight/lenis";
-import { select } from "./selector";
 
 const lenis = new Lenis({ lerp: 0.1 });
 

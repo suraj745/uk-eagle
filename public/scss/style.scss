@@ -699,15 +699,24 @@ $nav-height: 50rem; // slider
 
 .infra-tab {
   display: grid;
-
   grid-template-columns: repeat(4, auto);
   justify-content: center;
-  column-gap: 2rem;
+  @include media("<=992px") {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  gap: 1rem !important;
 
   .nav-link {
     font-size: clamp(1rem, 1.5rem, 2vw);
+    @include media("<=992px") {
+      border: 0.1rem solid $primary-color;
+    }
   }
 
+  button {
+    width: 100% !important;
+  }
   @include media("<=992px") {
     grid-template-columns: repeat(2, auto);
   }
