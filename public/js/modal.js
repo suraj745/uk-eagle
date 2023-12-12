@@ -60,7 +60,6 @@ function cardClickModal() {
     value.addEventListener("click", () => {
       const modal = document.querySelector(".main-modal-outer");
 
-      console.log("modal-loaded", modal);
       modal.innerHTML = `<section class="main-modal-inner d-flex justify-content-center align-items-center">
            <section
              class="main-modal-row p-5 justify-content-center align-items-center"

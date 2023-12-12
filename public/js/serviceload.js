@@ -1,5 +1,3 @@
-import { select } from "./selector";
-import { loadSwiperSlide } from "./customfunction";
 const serviceCard = [
   {
     img: "https://www.promap.co.uk/wp-content/uploads/2019/10/2B-Social-Infrastructure-PM-WEB.jpg",
@@ -121,5 +119,8 @@ function loadInfraContent(container) {
     })
     .join("");
 }
-serviceLoad();
-loadInfraContent();
+
+window.addEventListener("load", () => {
+  serviceLoad();
+  loadInfraContent();
+});
