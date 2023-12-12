@@ -1,31 +1,31 @@
 const cardData = [
   {
-    icon: "/public/images/chooseus/UK Eagle_ Icon_ Excellence.png",
+    icon: "/images/chooseus/UK Eagle_ Icon_ Excellence.png",
     head: "Excellence",
     para: " Excellence isn't just a goal at UK Eagle; it's embedded in our DNA, a philosophy reflected in our logo. We pursue excellence in every facet of our operations, from innovation to quality assurance, sustainability, and our global presence. By choosing UK Eagle, you align with an organization where excellence is not merely a standard but a driving force, ensuring that every interaction, every solution, and every partnership exceeds expectations. Join us on a journey where excellence is not just a commitment but a way of life.",
   },
   {
-    icon: "/public/images/chooseus/UK Eagle_ Icon_ Innovation.png",
+    icon: "/images/chooseus/UK Eagle_ Icon_ Innovation.png",
     head: "Innovation",
     para: "UK Eagle stands as a beacon of innovation in every sector it operates. Our relentless commitment to staying ahead of the curve drives us to invest heavily in research and development. By choosing UK Eagle, you align yourself with a dynamic organization that consistently introduces cutting-edge solutions, ensuring you benefit from the latest advancements in technology and practices.",
   },
   {
-    icon: "/public/images/chooseus/UK Eagle_ Icon_ QualityAssurance.png",
+    icon: "/images/chooseus/UK Eagle_ Icon_ QualityAssurance.png",
     head: "Quality Assurance",
     para: "Quality is the cornerstone of every UK Eagle product and service. Rigorous quality control measures are embedded in our processes to guarantee that each offering meets and exceeds industry standards. When you choose UK Eagle, you choose reliability and performance, ensuring that your operations run smoothly and efficiently.",
   },
   {
-    icon: "/public/images/chooseus/UK Eagle_ Icon_ Sustainibility.png",
+    icon: "/images/chooseus/UK Eagle_ Icon_ Sustainibility.png",
     head: "Sustainability",
     para: "UK Eagle is dedicated to environmental responsibility and sustainability. We understand the importance of minimizing our ecological footprint and promoting eco-friendly practices. By choosing UK Eagle, you contribute to a greener future, aligning your values with an organization committed to sustainable business practices across agriculture, energy, and infrastructure.",
   },
   {
-    icon: "/public/images/chooseus/UK Eagle_ Icon_ GlobalPresence.png",
+    icon: "/images/chooseus/UK Eagle_ Icon_ GlobalPresence.png",
     head: "Global Presence",
     para: " With a robust global presence, UK Eagle brings its expertise to diverse markets worldwide. Our extensive network allows us to understand and adapt to different regions' unique challenges and opportunities. By choosing UK Eagle, you gain a partner with a global perspective and a local touch, ensuring tailored solutions that suit your specific needs",
   },
   {
-    icon: "/public/images/chooseus/UK Eagle_ Icon_ CustomerCentricApproach.png",
+    icon: "/images/chooseus/UK Eagle_ Icon_ CustomerCentricApproach.png",
     head: "Customer-Centric Approach",
     para: "At the core of UK Eagle's philosophy is a commitment to our customers. We prioritize a customer-centric approach, aiming to meet and exceed your expectations. Your satisfaction is our priority, and we work diligently to build long-term partnerships. When you choose UK Eagle, you choose a collaborative and responsive partner dedicated to your success.",
   },
