@@ -21,7 +21,7 @@ select(
             data-bs-toggle="dropdown"
             aria-expanded="false"
             href="#"
-            >our business
+            >our businesses
           </a>
   
           <ul id="dropdown1" class="dropdown-menu">
@@ -78,13 +78,13 @@ select(
      
           <ul class="footer-list2">
             <li><p>Company</p></li>
-            <li><a href="#">Our Business</a></li>
+            <li><a href="#">Our Businesses</a></li>
             <li><a href="#">Contact Us</a></li>
             <li><a href="#">About Us</a></li>
           </ul>
 
           <ul class="footer-list2">
-            <li><p>Our Business</p></li>
+            <li><p>Our Businesses</p></li>
             <li><a href="#">Agriculture</a></li>
             <li><a href="#">Energy </a></li>
             <li><a href="#"> Infrastructure</a></li>

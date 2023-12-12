@@ -319,18 +319,14 @@ $nav-height: 50rem; // slider
   gap: clamp(1rem, 2rem, 2vw);
 }
 
+.modal-loaded-img {
+  max-width: 20rem;
+}
 .section-3-row .section-3-card {
   max-width: 30rem;
   padding: 1rem !important;
   @include media("<=576px") {
     max-width: 100%;
-  }
-
-  &:hover {
-    & > li > * {
-      color: white !important;
-    }
-    background-color: #25237a;
   }
 
   & > li {
@@ -496,6 +492,7 @@ $nav-height: 50rem; // slider
   height: 100vh;
   left: 0rem;
   background-color: #24237acc;
+  backdrop-filter: blur(6px);
   z-index: 9999;
   display: none;
 }
@@ -531,10 +528,12 @@ $nav-height: 50rem; // slider
   display: unset;
 }
 
-.section-3-card-icon {
-  font-size: 6rem;
-  font-weight: bold;
-  color: $primary-color;
+.section-3-card {
+  & > :nth-child(1) {
+    & > img {
+      max-width: 10rem;
+    }
+  }
 }
 
 .main-modal-content {
@@ -665,4 +664,12 @@ $nav-height: 50rem; // slider
   @include flex(center, center);
   z-index: 999999;
   color: white;
+}
+
+::view-transition-new {
+  opacity: 1;
+}
+
+::view-transition-old {
+  opacity: 0;
 }
