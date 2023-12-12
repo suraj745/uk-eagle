@@ -1,5 +1,5 @@
 import { select } from "./selector";
-import { callOnPath, loadSwiperSlide } from "./customfunction";
+import { loadSwiperSlide } from "./customfunction";
 const serviceCard = [
   {
     img: "https://www.promap.co.uk/wp-content/uploads/2019/10/2B-Social-Infrastructure-PM-WEB.jpg",
