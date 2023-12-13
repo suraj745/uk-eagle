@@ -26,9 +26,11 @@
       .nav-menus {
         @include flex(space-between, center);
 
-        & :not(:nth-last-child(1)) {
-          & > a {
-            border-right: 0.3rem solid rgb(119, 119, 119);
+        @include media(">=992px") {
+          & :not(:nth-last-child(1)) {
+            & > a {
+              border-right: 0.3rem solid rgb(119, 119, 119);
+            }
           }
         }
 
