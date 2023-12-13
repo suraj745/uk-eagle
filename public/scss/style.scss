@@ -26,10 +26,17 @@
       .nav-menus {
         @include flex(space-between, center);
 
+        & :not(:nth-last-child(1)) {
+          & > a {
+            border-right: 0.3rem solid rgb(119, 119, 119);
+          }
+        }
+
         & > li {
           height: 100%;
           @include flex(center, center);
           & > a {
+            padding: 0rem 2rem;
             text-decoration: none;
             color: black;
             text-transform: capitalize;
@@ -311,6 +318,13 @@ $nav-height: 50rem; // slider
   }
 }
 
+.video-left {
+  & > ul {
+    & :not(:nth-child(1)) {
+      margin-top: 2rem;
+    }
+  }
+}
 // section3
 
 .section-3-left {

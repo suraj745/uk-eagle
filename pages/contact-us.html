@@ -59,8 +59,14 @@
           <section
             class="row justify-content-center align-items-center banner-row"
           >
-            <section class="col-lg-6 text-center">
-              <h1 class="banner-heading text-center text-white">Contact Us</h1>
+            <section class="col-lg-6 text-center text-white">
+              <h1
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                class="banner-heading text-center text-white"
+              >
+                Contact Us
+              </h1>
             </section>
           </section>
         </section>
@@ -68,9 +74,56 @@
 
       <section class="container-fluid padding-130">
         <section class="container">
-          <section class="row justify-content-center">
+          <section
+            class="row justify-content-center gap-5 gap-lg-0 align-items-lg-start flex-column flex-lg-row"
+          >
+            <section class="col col-lg-4 col-xl-6">
+              <ul
+                class="contact-form-address d-flex flex-column justify-content-center align-items-start"
+              >
+                <li>
+                  <h1 class="main-heading">Contact Details</h1>
+                </li>
+                <li>
+                  <section>
+                    <h1 class="small-heading fs-2">
+                      <i class="fa-regular fa-envelope fa-beat-fade"></i> Our
+                      Emails
+                    </h1>
+
+                    <a
+                      class="text-decoration-none"
+                      href="mailto:sales@ukeagle.ae"
+                    >
+                      sales@ukeagle.ae
+                    </a>
+                  </section>
+                  <section>
+                    <h1 class="small-heading fs-2">
+                      <i class="fa-solid fa-phone fa-beat-fade"></i>Our
+                      Telephones
+                    </h1>
+
+                    <a
+                      class="text-decoration-none phone-number"
+                      href="tel:+971 52 835 3817"
+                      ><span></span>+971 52 835 3817</a
+                    >
+                  </section>
+
+                  <section>
+                    <h1 class="small-heading fs-2">
+                      <i class="fa-solid fa-location-dot fa-beat-fade"></i
+                      >Office Address
+                    </h1>
+
+                    <p class="">Post Box No 112356 Dubai UAE</p>
+                  </section>
+                </li>
+              </ul>
+            </section>
             <form
-              class="col col-md-10 col-lg-8 d-flex p-5 flex-column contact-form gap-5"
+              class="col col-lg-8 col-xl-6 d-flex p-5 flex-column contact-form gap-5"
             >
               <section class="row">
                 <div class="col form-group">
@@ -212,16 +265,17 @@
               <div class="form-group">
                 <label for="messaage">Message</label>
                 <textarea
-                  class="form-control"
+                  class="form-control message"
                   placeholder="Write a Message"
                   name="write-a-message"
                   id="message"
                   cols="30"
-                  rows="10"
+                  rows="5"
                 ></textarea>
               </div>
-
-              <button type="submit" class="default-button">Submit</button>
+              <section class="d-flex justify-content-center">
+                <button type="submit" class="default-button">Submit</button>
+              </section>
             </form>
           </section>
         </section>

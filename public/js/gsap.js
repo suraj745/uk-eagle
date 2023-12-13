@@ -9,7 +9,7 @@ let mm = gsap.matchMedia();
 function pinScroll(trigger, pin) {
   ScrollTrigger.create({
     trigger,
-    start: "top top",
+    start: "top 30%",
     end: "bottom 50%+=100px",
     pin,
   });
