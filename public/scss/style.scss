@@ -697,6 +697,9 @@ $nav-height: 50rem; // slider
   object-fit: cover;
 }
 
+.infra-navb {
+  text-transform: capitalize;
+}
 .infra-tab {
   display: grid;
   grid-template-columns: repeat(4, auto);

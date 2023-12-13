@@ -1,7 +1,7 @@
 const serviceCard = [
   {
     img: "https://www.promap.co.uk/wp-content/uploads/2019/10/2B-Social-Infrastructure-PM-WEB.jpg",
-    head: "Social Infrastructure",
+    head: "Social/Commercial infrastructures",
     para: "We are committed towards building places that resonate with lives. Be it any form of construction, we aim to build them with equal efforts and compassion. We build spaces that promote growth and enhance the experience of people.",
   },
   {
@@ -11,7 +11,7 @@ const serviceCard = [
   },
   {
     img: "https://i.ytimg.com/vi/JOCry6Wbd_Y/maxresdefault.jpg",
-    head: "HAMBOT",
+    head: "HAM/BOT",
     para: "UKEagle being the pioneers in HAM and BOT services provide conceptual design that pathways that will flip the industry of Infrastructure. We are built different.",
   },
   {
@@ -56,13 +56,16 @@ function serviceLoad() {
     .map((value, index) => {
       return ` <li class="nav-item" role="presentation">
     <button
+    data-aos='fade-down'
+    data-aos-duration='1000'
+    data-aos-delay='${index * 100}'
       class="nav-link w-100 infra-navb ${index == 0 && "active"}"
-      id="pills-${value.head.split(" ")[0]}-tab"
+      id="pills-${index}-tab"
       data-bs-toggle="pill"
-      data-bs-target="#pills-${value.head.split(" ")[0]}"
+      data-bs-target="#pills-${index}"
       type="button"
       role="tab"
-      aria-controls="pills-${value.head.split(" ")[0]}"
+      aria-controls="pills-${index}"
       aria-selected="${index == 0 ? "true" : "false"}"
     >
      ${value.head}
@@ -79,18 +82,18 @@ function loadInfraContent(container) {
     .map((value, index) => {
       return `<div class="tab-content" id="pills-tabContent">
     <div
-      class="tab-pane fade  ${index == 0 && "show active"}"
-      id="pills-${value.head.split(" ")[0]}"
+      class="tab-pane  ${index == 0 && "show active"}"
+      id="pills-${index}"
       role="tabpanel"
-      aria-labelledby="pills-${value.head.split(" ")[0]}-tab"
+      aria-labelledby="pills-${index}-tab"
       tabindex="0"
     >
       <section class="container-fluid about-outer padding-bt-130">
-        <section class="container about-innner mt-5">
+        <section class="container overflow-hidden about-innner mt-5">
           <section
-            class="row about-row align-items-center justify-content-between flex-column flex-lg-row gap-5 gap-lg-0"
+            class="row about-row animate__animated animate__fadeIn  align-items-center justify-content-between flex-column flex-lg-row gap-5 gap-lg-0"
           >
-            <section class="col col-lg-6 about-left">
+            <section class="col  col-lg-6 about-left">
               <img
                 class="responsive-img infra-nav-tab-img"
                 src="${value.img}"

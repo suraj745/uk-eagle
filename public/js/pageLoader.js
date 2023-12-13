@@ -10,12 +10,12 @@ select(
         class="col-5 col-md-3 col-lg-2 col-xl-2 nav-logo d-flex align-items-center"
       >
         <li>
-       <a href="/">   <img src="/images/logo.png" alt="" /></a>
+       <a  href="/">   <img data-aos='fade-right' data-aos-duration='1000' src="/images/logo.png" alt="" /></a>
         </li>
       </ul>
       <ul class="col-lg-6 col-xl-4 nav-menus" data-mobnav="deactive">
-        <li class="nav-menu-item"><a href="/">home</a></li>
-        <li class="nav-menu-item dropdown-center">
+        <li data-aos="fade-down" data-aos-duration='1000' data-aos-delay='200' class="nav-menu-item"><a href="/">home</a></li>
+        <li data-aos="fade-down" data-aos-duration='1000' data-aos-delay='400' class="nav-menu-item dropdown-center">
           <a
             class="dropdown-toggle boot-dropdown"
             data-bs-toggle="dropdown"
@@ -25,16 +25,16 @@ select(
           </a>
   
           <ul id="dropdown1" class="dropdown-menu">
-            <li><a class="dropdown-item" href="/pages/our-businesses/agriculture.html">Agriculture</a></li>
-            <li><a class="dropdown-item" href="/pages/our-businesses/energy.html">Energy</a></li>
-            <li><a class="dropdown-item" href="/pages/our-businesses/infrastructure.html">Infrastructure</a></li>
-            <li><a class="dropdown-item" href="/pages/our-businesses/pharmaceutical.html">Pharmaceutical</a></li>
-            <li><a class="dropdown-item" href="/pages/our-businesses/supermarkets.html">Supermarkets</a></li>
-            <li><a class="dropdown-item" href="/pages/our-businesses/logistics.html">Logistics</a></li>
+            <li><a  class="dropdown-item" href="/pages/our-businesses/agriculture.html">Agriculture</a></li>
+            <li><a  class="dropdown-item" href="/pages/our-businesses/energy.html">Energy</a></li>
+            <li><a  class="dropdown-item" href="/pages/our-businesses/infrastructure.html">Infrastructure</a></li>
+            <li><a  class="dropdown-item" href="/pages/our-businesses/pharmaceutical.html">Pharmaceutical</a></li>
+            <li><a  class="dropdown-item" href="/pages/our-businesses/supermarkets.html">Supermarkets</a></li>
+            <li><a  class="dropdown-item" href="/pages/our-businesses/logistics.html">Logistics</a></li>
           </ul>
         </li>
-        <li class="nav-menu-item"><a href="/pages/contact-us.html">contact us</a></li>
-        <li class="nav-menu-item"><a href="/pages/about-us.html">about us</a></li>
+        <li data-aos="fade-down" data-aos-duration='1000' data-aos-duration='1000' data-aos-delay='600'  class="nav-menu-item"><a href="/pages/contact-us.html">contact us</a></li>
+        <li data-aos="fade-down" data-aos-duration='1000' data-aos-duration='1000' data-aos-delay='800' class="nav-menu-item"><a href="/pages/about-us.html">about us</a></li>
       </ul>
   
       <section class="col-2 col-xl-4 nav-hamburger">

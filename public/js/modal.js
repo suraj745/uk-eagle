@@ -34,12 +34,15 @@ const cardData = [
 const chooseUs = document.querySelector(".section-3-right");
 
 chooseUs.innerHTML = cardData
-  .map((value) => {
+  .map((value, index) => {
     let para2;
     if (value.para.length > 150) {
       para2 = value.para.slice(0, 150);
     }
     return `<ul
+    data-aos="fade-up"
+    data-aos-duration="1000"
+    data-aos-delay="${index * 200}"
       class="section-3-card flex-column d-flex justify-content-around align-items-between"
       >
       <li class='modal-image'><img src="${value.icon}" alt="${value.icon
@@ -55,7 +58,7 @@ chooseUs.innerHTML = cardData
   })
   .join("");
 
-function cardClickModal() {
+export function cardClickModal() {
   document.querySelectorAll(".section-3-card").forEach((value) => {
     value.addEventListener("click", () => {
       const modal = document.querySelector(".main-modal-outer");
