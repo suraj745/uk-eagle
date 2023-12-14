@@ -3,7 +3,7 @@ const homeSwiper = new Swiper(".home-swiper-main", {
   effect: "fade",
   grabCursor: true,
   autoplay: {
-    delay: 2500,
+    delay: 3000,
     disableOnInteraction: false,
   },
 });
@@ -16,7 +16,7 @@ const serviceSwiper = new Swiper(".service-swiper-main", {
   },
   loop: "infinite",
   autoplay: {
-    delay: 2000,
+    delay: 3000,
     disableOnInteraction: false,
   },
   breakpoints: {

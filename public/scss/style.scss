@@ -21,26 +21,36 @@
         position: relative;
         z-index: 10;
         & img {
-          width: 80%;
+          width: 65%;
         }
       }
       .nav-menus {
         @include flex(space-between, center);
         @include media(">=992px") {
           & > :not(:nth-last-child(1)) {
-            border-right: 0.3rem solid rgb(134, 134, 134);
+            & > a {
+              border-right: 0.3rem solid black;
+            }
           }
         }
         & > li {
+          padding-block: 0.5rem;
           @include flex(center, center);
+          height: 100%;
           width: 100%;
+
           & > a {
             text-align: center;
             padding-inline: clamp(0.5rem, 1.5rem, 2vw);
             text-decoration: none;
             color: black;
             text-transform: capitalize;
-            width: max-content;
+            width: 100% !important;
+
+            & > span {
+              display: inline-block;
+              width: max-content;
+            }
 
             @include media(">=992px") {
               font-size: clamp(1.2rem, 1.6rem, 2vw);
@@ -205,9 +215,14 @@ $nav-height: 50rem; // slider
     background-color: white !important;
   }
 }
+@include media(">=992px") {
+  .nav-menu-item:hover .dropdown-menu {
+    display: block !important;
+  }
+}
 
 .dropdown-menu {
-  top: 15% !important;
+  top: 80%;
   left: 0rem;
   font-size: 1.5rem !important;
   max-width: max-content;
@@ -231,6 +246,12 @@ $nav-height: 50rem; // slider
       padding: 1rem 2rem;
       font-weight: 500 !important;
     }
+  }
+}
+
+@include media(">=992px") {
+  .dropdown-toggle::after {
+    display: none !important;
   }
 }
 
@@ -672,7 +693,7 @@ $nav-height: 50rem; // slider
 .page-loader {
   min-height: 100vh;
   width: 100%;
-  background-color: $primary-color;
+  background-color: white;
   position: fixed;
   left: 0;
   top: 0;

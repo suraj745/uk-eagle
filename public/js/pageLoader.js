@@ -4,45 +4,152 @@ import { stickyNavbar, navSlider } from "./navFunction";
 select(
   "nav"
 ).innerHTML = `<section class="container-fluid nav-outer main-navbar">
-  <section class="container nav-inner">
-    <section class="row nav-row justify-content-between">
-      <ul
-        class="col-5 col-md-3 col-lg-2 col-xl-2 nav-logo d-flex align-items-center"
+<section class="container nav-inner">
+  <section class="row nav-row justify-content-between">
+    <ul
+      class="col-5 col-md-3 col-lg-2 col-xl-2 nav-logo d-flex align-items-center"
+    >
+      <li>
+        <a href="/">
+          <img
+            class="navbar-brand"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+            src="/images/logo.png"
+            alt=""
+        /></a>
+      </li>
+    </ul>
+    <ul class="col-lg-6 col-xl-5 nav-menus" data-mobnav="deactive">
+      <li
+        data-aos="fade-down"
+        data-aos-duration="1000"
+        data-aos-delay="200"
+        class="nav-menu-item"
       >
-        <li>
-       <a  href="/">   <img data-aos='fade-right' data-aos-duration='1000' src="/images/logo.png" alt="" /></a>
-        </li>
-      </ul>
-      <ul class="col-lg-6 col-xl-5  nav-menus" data-mobnav="deactive">
-        <li data-aos="fade-down" data-aos-duration='1000' data-aos-delay='200' class="nav-menu-item"><a href="/">home</a></li>
-        <li data-aos="fade-down" data-aos-duration='1000' data-aos-delay='400' class="nav-menu-item dropdown-center">
-          <a
-            class="dropdown-toggle boot-dropdown"
-            data-bs-toggle="dropdown"
-            aria-expanded="false"
-            href="#"
-            >our businesses
-          </a>
-  
-          <ul id="dropdown1" class="dropdown-menu">
-            <li><a  class="dropdown-item" href="/pages/our-businesses/agriculture.html">Agriculture</a></li>
-            <li><a  class="dropdown-item" href="/pages/our-businesses/energy.html">Energy</a></li>
-            <li><a  class="dropdown-item" href="/pages/our-businesses/infrastructure.html">Infrastructure</a></li>
-            <li><a  class="dropdown-item" href="/pages/our-businesses/pharmaceutical.html">Pharmaceutical</a></li>
-            <li><a  class="dropdown-item" href="/pages/our-businesses/supermarkets.html">Supermarkets</a></li>
-            <li><a  class="dropdown-item" href="/pages/our-businesses/logistics.html">Logistics</a></li>
-          </ul>
-        </li>
-        <li data-aos="fade-down" data-aos-duration='1000' data-aos-duration='1000' data-aos-delay='600'  class="nav-menu-item"><a href="/pages/contact-us.html">contact us</a></li>
-        <li data-aos="fade-down" data-aos-duration='1000' data-aos-duration='1000' data-aos-delay='800' class="nav-menu-item"><a href="/pages/about-us.html">about us</a></li>
-      </ul>
-  
-      <section class="col-2 col-xl-4 nav-hamburger">
-        <i class="fa-solid ham fa-bars"></i>
-      </section>
+        <a href="/">home</a>
+      </li>
+      <li
+        data-aos="fade-down"
+        data-aos-duration="1000"
+        data-aos-duration="1000"
+        data-aos-delay="800"
+        class="nav-menu-item"
+      >
+        <a class="dropdown-toggle boot-dropdown"
+        data-bs-toggle="dropdown"
+        aria-expanded="false"href="#"><span>about us</span></a>
+        <ul id="dropdown1" class="dropdown-menu about-dropdown">
+          <li>
+            <a
+              class="dropdown-item"
+              href="/pages/about-us.html#OurMission"
+              >Our Mission</a
+            >
+          </li>
+          <li>
+            <a class="dropdown-item" href="/pages/about-us.html#OurVision"
+              >Our Vision</a
+            >
+          </li>
+          <li>
+            <a
+              class="dropdown-item"
+              href="/pages/about-us.html#OurBusiness"
+              >Our Business</a
+            >
+          </li>
+          <li>
+            <a
+              class="dropdown-item"
+              href="/pages/about-us.html#ChooseUs"
+              >Why Choose Us</a
+            >
+          </li>
+          <li>
+            <a
+              class="dropdown-item"
+              href="/pages/about-us.html#EnergySolution"
+              >Energy Solution</a
+            >
+          </li>
+        </ul>
+      </li>
+      <li
+        data-aos="fade-down"
+        data-aos-duration="1000"
+        data-aos-delay="400"
+        class="nav-menu-item dropdown-center"
+      >
+        <a
+          class="dropdown-toggle  boot-dropdown"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+          href="#"
+          ><span>our businesses</span>
+        </a>
+
+        <ul id="dropdown1" class="dropdown-menu">
+          <li>
+            <a
+              class="dropdown-item"
+              href="/pages/our-businesses/agriculture.html"
+              >Agriculture</a
+            >
+          </li>
+          <li>
+            <a class="dropdown-item" href="/pages/our-businesses/energy.html"
+              >Energy</a
+            >
+          </li>
+          <li>
+            <a
+              class="dropdown-item"
+              href="/pages/our-businesses/infrastructure.html"
+              >Infrastructure</a
+            >
+          </li>
+          <li>
+            <a
+              class="dropdown-item"
+              href="/pages/our-businesses/pharmaceutical.html"
+              >Pharmaceutical</a
+            >
+          </li>
+          <li>
+            <a
+              class="dropdown-item"
+              href="/pages/our-businesses/supermarkets.html"
+              >Supermarkets</a
+            >
+          </li>
+          <li>
+            <a
+              class="dropdown-item"
+              href="/pages/our-businesses/logistics.html"
+              >Logistics</a
+            >
+          </li>
+        </ul>
+      </li>
+      <li
+        data-aos="fade-down"
+        data-aos-duration="1000"
+        data-aos-duration="1000"
+        data-aos-delay="600"
+        class="nav-menu-item"
+      >
+        <a href="/pages/contact-us.html"><span>contact us</span></a>
+      </li>
+    </ul>
+
+    <section class="col-2 col-xl-4 nav-hamburger">
+      <i class="fa-solid ham fa-bars"></i>
     </section>
   </section>
-  </section>`;
+</section>
+</section>
+`;
 
 select(
   "footer"
@@ -76,9 +183,9 @@ select(
      
           <ul class="footer-list2">
             <li><p>Company</p></li>
+            <li><a href="#">About Us</a></li>
             <li><a href="#">Our Businesses</a></li>
             <li><a href="#">Contact Us</a></li>
-            <li><a href="#">About Us</a></li>
           </ul>
 
           <ul class="footer-list2">
