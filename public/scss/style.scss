@@ -45,8 +45,11 @@
             text-decoration: none;
             color: black;
             text-transform: capitalize;
-            font-size: clamp(1.2rem, 1.6rem, 2vw);
             width: max-content;
+
+            @include media(">=992px") {
+              font-size: clamp(1.2rem, 1.6rem, 2vw);
+            }
           }
         }
 
