@@ -700,6 +700,10 @@ $nav-height: 50rem; // slider
   @include flex(center, center);
   z-index: 999999;
   color: white;
+
+  & > img {
+    width: 10rem !important;
+  }
 }
 
 ::view-transition-new {
