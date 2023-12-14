@@ -1,6 +1,7 @@
 import "/public/js/lenis";
 import "/public/js/gsap";
 import "/public/js/aos";
+import "/public/js/swup";
 import "/public/js/screenload";
 import "/public/js/serviceload";
 import "/public/js/swipeUp";
