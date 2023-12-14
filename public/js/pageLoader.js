@@ -13,7 +13,7 @@ select(
        <a  href="/">   <img data-aos='fade-right' data-aos-duration='1000' src="/images/logo.png" alt="" /></a>
         </li>
       </ul>
-      <ul class="col-lg-6 col-xl-4 nav-menus" data-mobnav="deactive">
+      <ul class="col-lg-6 col-xl-5  nav-menus" data-mobnav="deactive">
         <li data-aos="fade-down" data-aos-duration='1000' data-aos-delay='200' class="nav-menu-item"><a href="/">home</a></li>
         <li data-aos="fade-down" data-aos-duration='1000' data-aos-delay='400' class="nav-menu-item dropdown-center">
           <a
