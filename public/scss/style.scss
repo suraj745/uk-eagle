@@ -26,17 +26,12 @@
       }
       .nav-menus {
         @include flex(space-between, center);
-
         @include media(">=992px") {
-          & :not(:nth-last-child(1)) {
-            & > a {
-              border-right: 0.3rem solid rgb(119, 119, 119);
-            }
+          & > :not(:nth-last-child(1)) {
+            border-right: 0.3rem solid rgb(134, 134, 134);
           }
         }
-
         & > li {
-          height: 100%;
           @include flex(center, center);
           width: 100%;
           & > a {
