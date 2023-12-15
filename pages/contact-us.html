@@ -69,12 +69,12 @@
           </section>
         </section>
 
-        <section class="container-fluid padding-130">
+        <section class="container-fluid padding-bt-130 pt-5">
           <section class="container">
             <section
-              class="row justify-content-center gap-5 gap-lg-0 align-items-lg-start flex-column flex-lg-row"
+              class="row justify-content-center align-items-center gap-5 gap-lg-0 flex-column"
             >
-              <section class="col col-lg-4 col-xl-6">
+              <section class="col col-md-6">
                 <ul
                   class="contact-form-address d-flex flex-column justify-content-center align-items-start"
                 >
@@ -84,12 +84,11 @@
                   <li>
                     <section>
                       <h1 class="small-heading fs-2">
-                        <i class="fa-regular fa-envelope fa-beat-fade"></i> Our
-                        Emails
+                        <i class="fa-regular fa-envelope"></i> Our Emails
                       </h1>
 
                       <a
-                        class="text-decoration-none"
+                        class="text-decoration-none fs-3"
                         href="mailto:sales@ukeagle.ae"
                       >
                         sales@ukeagle.ae
@@ -97,34 +96,42 @@
                     </section>
                     <section>
                       <h1 class="small-heading fs-2">
-                        <i class="fa-solid fa-phone fa-beat-fade"></i>Our
-                        Telephones
+                        <i class="fa-solid fa-phone"></i>Our Telephones
                       </h1>
 
                       <a
-                        class="text-decoration-none phone-number"
+                        class="text-decoration-none fs-3 phone-number"
                         href="tel:+971 52 835 3817"
-                        ><span></span>+971 52 835 3817</a
+                        >+971 52 835 3817</a
                       >
                     </section>
 
                     <section>
                       <h1 class="small-heading fs-2">
-                        <i class="fa-solid fa-location-dot fa-beat-fade"></i
-                        >Office Address
+                        <i class="fa-solid fa-location-dot"></i>Office Address
                       </h1>
 
-                      <p class="">Post Box No 112356 Dubai UAE</p>
+                      <p class="fs-3">Post Box No 112356 Dubai UAE</p>
                     </section>
                   </li>
                 </ul>
               </section>
               <form
-                class="col col-lg-8 col-xl-6 d-flex p-5 flex-column contact-form gap-5"
+                class="col mt-5 col-md-6 d-flex p-5 flex-column contact-form gap-5"
               >
                 <section class="row">
+                  <p>
+                    Thanks for your interest in UK Eagle. Please provide us with
+                    the following details, we will revert back to you. Please
+                    enter the requested information. ( * indicates a mandatory
+                    field).
+                  </p>
+                </section>
+                <section class="row mt-3">
                   <div class="col form-group">
-                    <label for="name">Name </label>
+                    <label for="name"
+                      >Name <i class="fa-solid fs-6 fa-asterisk"></i>
+                    </label>
                     <input
                       type="email"
                       class="form-control"
@@ -133,7 +140,9 @@
                     />
                   </div>
                   <div class="col form-group">
-                    <label for="Telephone">Telephone</label>
+                    <label for="Telephone"
+                      >Telephone<i class="fa-solid fs-6 fa-asterisk"></i
+                    ></label>
                     <input
                       type="tel"
                       class="form-control"
@@ -145,7 +154,9 @@
 
                 <section class="row">
                   <div class="col form-group">
-                    <label for="Email">Email</label>
+                    <label for="Email"
+                      >Email<i class="fa-solid fs-6 fa-asterisk"></i
+                    ></label>
                     <input
                       type="email"
                       class="form-control"
@@ -154,7 +165,7 @@
                     />
                   </div>
 
-                  <div class="col form-group">
+                  <!-- <div class="col form-group">
                     <label for="state">State</label>
                     <select id="state" class="form-control state-list">
                       <option value="">Select state</option>
@@ -196,11 +207,11 @@
                       <option value="UT">Uttarakhand</option>
                       <option value="WB">West Bengal</option>
                     </select>
-                  </div>
+                  </div> -->
                 </section>
 
                 <section class="row">
-                  <div class="col form-group">
+                  <!-- <div class="col form-group">
                     <label for="City">City</label>
                     <input
                       type="City"
@@ -208,10 +219,12 @@
                       id="City"
                       placeholder="Enter your City"
                     />
-                  </div>
+                  </div> -->
 
                   <div class="col form-group">
-                    <label for="segment">Segment</label>
+                    <label for="segment"
+                      >Segment<i class="fa-solid fs-6 fa-asterisk"></i
+                    ></label>
                     <select id="segment" class="form-control segment-list">
                       <option selected>Select Segment</option>
                       <option value="Automotive/Retail">
@@ -224,7 +237,7 @@
                   </div>
                 </section>
 
-                <section class="row">
+                <!-- <section class="row">
                   <div class="col form-group">
                     <label for="looking-for">Looking For</label>
                     <select
@@ -249,9 +262,9 @@
                       <option value="2 Lakh to 3 Lakh">2 Lakh to 3 Lakh</option>
                     </select>
                   </div>
-                </section>
+                </section> -->
 
-                <div class="form-group">
+                <!-- <div class="form-group">
                   <label for="hear-about">How do you hear about us </label>
                   <select id="hear-about" class="form-control hear-about-list">
                     <option selected>Select Source</option>
@@ -259,10 +272,12 @@
                     <option value="1 Lakh to 2 Lakh">Digital Ads</option>
                     <option value="2 Lakh to 3 Lakh">Other</option>
                   </select>
-                </div>
+                </div> -->
 
                 <div class="form-group">
-                  <label for="messaage">Message</label>
+                  <label for="messaage"
+                    >Message<i class="fa-solid fs-6 fa-asterisk"></i
+                  ></label>
                   <textarea
                     class="form-control message"
                     placeholder="Write a Message"

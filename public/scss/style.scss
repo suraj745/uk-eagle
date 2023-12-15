@@ -3,6 +3,7 @@
 @import "./about.scss";
 @import "./contact.scss";
 @import "./animation";
+@import "./energy";
 
 // navbar
 
@@ -409,7 +410,7 @@ $nav-height: 50rem; // slider
 // footer
 
 .footer-outer {
-  background-color: $primary-color;
+  background-color: #120f67;
 }
 .footer-list {
   & > :not(:nth-child(1)) {
