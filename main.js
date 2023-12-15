@@ -10,9 +10,16 @@ import "/public/js/pageLoader";
 import "/public/js/modal";
 import "/public/js/businessload";
 
-if (window.location.pathname === "/") {
-  document.querySelector(".nav-menus > :nth-child(1) > a").style.display =
-    "none";
-} else {
-  document.querySelector(".nav-menus > :nth-child(1)").style.display = "block";
+import "/public/js/scrollFunction";
+
+function checkLoc() {
+  if (window.location.pathname === "/") {
+    document.querySelector(".nav-menus > :nth-child(1) > a").style.display =
+      "none";
+  } else {
+    document.querySelector(".nav-menus > :nth-child(1)").style.display =
+      "block";
+  }
 }
+
+checkLoc();

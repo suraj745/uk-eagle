@@ -33,21 +33,22 @@ const cardData = [
 
 const chooseUs = document.querySelector(".section-3-right");
 
-chooseUs.innerHTML = cardData
-  .map((value, index) => {
-    let para2;
-    if (value.para.length > 150) {
-      para2 = value.para.slice(0, 150);
-    }
-    return `<ul
+if (window.location.pathname == "/") {
+  chooseUs.innerHTML = cardData
+    .map((value, index) => {
+      let para2;
+      if (value.para.length > 150) {
+        para2 = value.para.slice(0, 150);
+      }
+      return `<ul
     data-aos="fade-up"
     data-aos-duration="1000"
     data-aos-delay="${index * 200}"
       class="section-3-card flex-column d-flex justify-content-around align-items-between"
       >
       <li class='modal-image'><img src="${value.icon}" alt="${value.icon
-      .split("/")
-      .at(-1)}"/></li>
+        .split("/")
+        .at(-1)}"/></li>
       <li><h2 class='section-3-card-head'>${value.head}</h2></li>
       <li><p class="font-sm text-secondary">${para2} ....</p></li>
       <li class="d-none full-content">
@@ -55,10 +56,11 @@ chooseUs.innerHTML = cardData
       </li>
       <li><a>Read More</a></li>
     </ul>`;
-  })
-  .join("");
+    })
+    .join("");
+}
 
-export function cardClickModal() {
+function cardClickModal() {
   document.querySelectorAll(".section-3-card").forEach((value) => {
     value.addEventListener("click", () => {
       const modal = document.querySelector(".main-modal-outer");
@@ -114,8 +116,6 @@ function anyWhereClose(modal) {
   });
 }
 
-cardClickModal();
-
 // function cardClickModal() {
 //   document.querySelectorAll(".section-3-card").forEach((card, index) => {
 //     card.addEventListener("click", () => {
@@ -125,4 +125,4 @@ cardClickModal();
 //   });
 // }
 
-// cardClickModal();
+cardClickModal();

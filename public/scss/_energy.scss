@@ -3,13 +3,6 @@
 
 .xeno-content {
   padding-block-end: clamp(3rem, 5rem, 4vw);
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  column-gap: 2rem;
-
-  @include media("<=1200px") {
-    grid-template-columns: repeat(1, 1fr);
-  }
 
   .main-heading {
     font-size: clamp(1.8rem, 2.5rem, 1.5vw);
@@ -20,15 +13,15 @@
     font-size: clamp(1.2rem, 1.6rem, 3vw);
   }
 
-  .xeno-image {
-    & > img {
-      width: 100%;
+  // .xeno-image {
+  //   & > img {
+  //     width: 100%;
 
-      @include media("<=1200px") {
-        width: 15rem;
-      }
-    }
-  }
+  //     @include media("<=1200px") {
+  //       width: 15rem;
+  //     }
+  //   }
+  // }
 }
 
 .xeno-content-item {

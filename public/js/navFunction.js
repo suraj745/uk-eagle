@@ -1,9 +1,6 @@
 import { select } from "./selector";
 
-export function navSlider() {
-  const navMenus = document.querySelector(".nav-menus");
-  const hamburger = document.querySelector(".ham");
-
+export function navSlider(navMenus, hamburger) {
   hamburger.addEventListener("click", (e) => {
     if (navMenus.getAttribute("data-mobnav") == "active") {
       navMenus.setAttribute("data-mobnav", "deactive");

@@ -770,3 +770,10 @@ $nav-height: 50rem; // slider
 //   height: 4px;
 //   background-color: green;
 // }
+
+// banners
+
+.agriculture-banner {
+  background-image: url("/public/images/banners-image/AgricultureBanner_og.jpeg");
+  object-fit: cover;
+}

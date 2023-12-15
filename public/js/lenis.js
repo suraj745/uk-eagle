@@ -14,3 +14,13 @@ requestAnimationFrame(raf);
 document.querySelector(".scroll-up").addEventListener("click", (e) => {
   lenis.scrollTo(document.querySelector(".hero-scroll"));
 });
+
+export function pageScroll(item) {
+  item.forEach((value) => {
+    value.addEventListener("click", (e) => {
+      lenis.scrollTo(`#${e.target.href.split("#")[1]}`, {
+        offset: document.querySelector("nav").offsetHeight - 130,
+      });
+    });
+  });
+}

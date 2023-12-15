@@ -43,3 +43,41 @@
   box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px,
     rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
 }
+
+.agriculture-banner,
+.energy-banner,
+.infra-banner,
+.pharma-banner,
+.market-banner,
+.log-banner {
+  background-position: bottom;
+  @include media("<=650px") {
+    background-position: bottom 5rem;
+  }
+  &::after {
+    background: none;
+  }
+}
+.agriculture-banner {
+  background-image: url("/public/images/banners-image/AgricultureBanner_og.jpeg") !important;
+}
+
+.energy-banner {
+  background-image: url("/public/images/banners-image/EnergyBanner_og.jpeg") !important;
+}
+
+.infra-banner {
+  background-image: url("/public/images/banners-image/InfrastructureBanner_og.jpeg") !important;
+}
+
+.pharma-banner {
+  background-image: url("/public/images/banners-image/PharmaceuticalBanner_og.jpeg") !important;
+}
+
+.market-banner {
+  background-image: url("/public/images/banners-image/SupermarketsBanner_og.jpeg") !important;
+}
+
+.log-banner {
+  background-image: url("/public/images/banners-image/LogisticBanner_og.jpeg") !important;
+}

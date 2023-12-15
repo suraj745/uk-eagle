@@ -1,6 +1,7 @@
 import { select } from "./selector";
 import "./navFunction";
 import { stickyNavbar, navSlider } from "./navFunction";
+import { pageScroll } from "./lenis";
 select(
   "nav"
 ).innerHTML = `<section class="container-fluid nav-outer main-navbar">
@@ -89,7 +90,7 @@ select(
           ><span>our businesses</span>
         </a>
 
-        <ul id="dropdown1" class="dropdown-menu">
+        <ul id="dropdown2" class="dropdown-menu">
           <li>
             <a
               class="dropdown-item"
@@ -228,4 +229,21 @@ select(
   </section>`;
 
 stickyNavbar();
-navSlider();
+navSlider(document.querySelector(".nav-menus"), document.querySelector(".ham"));
+
+pageScroll(document.querySelectorAll("#dropdown1 .dropdown-item"));
+
+document.querySelectorAll("#dropdown1 .dropdown-item").forEach((value) => {
+  value.addEventListener("click", (e) => {
+    const navMenus = document.querySelector(".nav-menus");
+    const hamburger = document.querySelector(".ham");
+
+    if (navMenus.getAttribute("data-mobnav") == "active") {
+      navMenus.setAttribute("data-mobnav", "deactive");
+      hamburger.classList.remove("fa-xmark");
+    } else {
+      navMenus.setAttribute("data-mobnav", "active");
+      hamburger.classList.add("fa-xmark");
+    }
+  });
+});

@@ -2,7 +2,6 @@
 @import "./reset";
 
 .contact-form {
-  background-color: #f5f5f5;
   label {
     color: black;
     @include flex(flex-start, center);
@@ -42,15 +41,8 @@
     font-size: clamp(2.5rem, 3rem, 3vw);
   }
 
-  & > :nth-child(1) {
-    & > :nth-child(1) {
-      border-bottom: 0.3rem solid $primary-color;
-    }
-  }
-
   & :nth-child(2) {
     & > section {
-      border-bottom: 0.2rem solid $primary-color;
       padding-block: 2rem;
 
       & > :nth-child(1) {

@@ -1,6 +1,3 @@
-import Swup from "swup";
-import SwupProgressPlugin from "@swup/progress-plugin";
+// import Lenis from "@studio-freight/lenis";
 
-console.log("swup");
-const swup = new Swup({
-});
+// const lenis = new Lenis();
