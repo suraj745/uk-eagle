@@ -773,7 +773,42 @@ $nav-height: 50rem; // slider
 
 // banners
 
+.agriculture-banner,
+.energy-banner,
+.infra-banner,
+.pharma-banner,
+.market-banner,
+.log-banner {
+  background-position: bottom right;
+  background-size: cover;
+
+  @include media("<=650px") {
+    background-position: right !important;
+  }
+  &::after {
+    background: none;
+  }
+}
 .agriculture-banner {
-  background-image: url("/public/images/banners-image/AgricultureBanner_og.jpeg");
-  object-fit: cover;
+  background-image: url("/images/banners-image/AgricultureBanner_og.jpeg") !important;
+}
+
+.energy-banner {
+  background-image: url("/images/banners-image/EnergyBanner_og.jpeg") !important;
+}
+
+.infra-banner {
+  background-image: url("/images/banners-image/InfrastructureBanner_og.jpeg") !important;
+}
+
+.pharma-banner {
+  background-image: url("/images/banners-image/PharmaceuticalBanner_og.jpeg") !important;
+}
+
+.market-banner {
+  background-image: url("/images/banners-image/SupermarketsBanner_og.jpeg") !important;
+}
+
+.log-banner {
+  background-image: url("/images/banners-image/LogisticBanner_og.jpeg") !important;
 }
