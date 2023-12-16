@@ -160,12 +160,18 @@ $nav-height: 50rem; // slider
     position: relative;
     overflow: hidden;
     height: calc(100vh - 9rem);
-    & > img {
+    & > source,
+    img {
       width: 100%;
       height: 100vh;
       object-fit: cover;
-      @include media("<=768px") {
-        object-position: center right;
+    }
+
+    @include media("<=444px") {
+      img {
+        width: 100%;
+        height: 100vh;
+        object-fit: cover;
       }
     }
   }
@@ -216,10 +222,15 @@ $nav-height: 50rem; // slider
     background-color: white !important;
   }
 }
+
 @include media(">=992px") {
   .nav-menu-item:hover .dropdown-menu {
     display: block !important;
   }
+}
+
+.mob-banner {
+  width: 100%;
 }
 
 .dropdown-menu {

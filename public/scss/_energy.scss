@@ -61,10 +61,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
 
   @include media("<=576px") {
     flex-direction: column-reverse;
     gap: clamp(0.5rem, 2rem, 2vw);
+    padding-block-start: 5rem;
   }
   box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px,
     rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
@@ -75,8 +77,22 @@
   }
 
   .left {
+    & > :not(:nth-child(1)) {
+      margin-top: 1rem;
+    }
     @include media("<=576px") {
       text-align: center;
+      .main-heading {
+        font-size: 1.8rem !important;
+      }
+
+      & > :nth-child(1) {
+        width: 100%;
+        position: absolute;
+        top: 2rem;
+        text-wrap: wrap;
+        left: 0;
+      }
     }
   }
 }
