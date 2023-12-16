@@ -44,3 +44,39 @@
     }
   }
 }
+
+.energy-grid {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  place-items: center;
+  gap: clamp(1rem, 2rem, 2vw);
+
+  @include media("<=1200px") {
+    grid-template-columns: repeat(1, auto);
+  }
+}
+
+.energy-card {
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  @include media("<=576px") {
+    flex-direction: column-reverse;
+    gap: clamp(0.5rem, 2rem, 2vw);
+  }
+  box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px,
+    rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+  .right {
+    & > img {
+      width: 20rem;
+    }
+  }
+
+  .left {
+    @include media("<=576px") {
+      text-align: center;
+    }
+  }
+}

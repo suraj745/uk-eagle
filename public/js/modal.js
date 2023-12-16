@@ -116,13 +116,5 @@ function anyWhereClose(modal) {
   });
 }
 
-// function cardClickModal() {
-//   document.querySelectorAll(".section-3-card").forEach((card, index) => {
-//     card.addEventListener("click", () => {
-//       const modal = document.querySelector(".main-modal-outer");
-//       console.log(modal);
-//     });
-//   });
-// }
 
 cardClickModal();

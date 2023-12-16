@@ -16,7 +16,7 @@ export function stickyNavbar() {
   window.addEventListener("scroll", function () {
     var scrollPos = window.scrollY;
     let navbar_select = document.querySelector(".main-navbar");
-    // Print the scroll position to the console
+
     if (scrollPos > 100) {
       navbar_select.classList.add("sticky_navbar");
     } else {

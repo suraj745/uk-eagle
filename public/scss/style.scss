@@ -410,7 +410,7 @@ $nav-height: 50rem; // slider
 // footer
 
 .footer-outer {
-  background-color: #120f67;
+  background-color: #25237a;
 }
 .footer-list {
   & > :not(:nth-child(1)) {
@@ -783,7 +783,7 @@ $nav-height: 50rem; // slider
   background-size: cover;
 
   @include media("<=650px") {
-    background-position: right !important;
+    background-position: right;
   }
   &::after {
     background: none;
