@@ -96,3 +96,14 @@
     }
   }
 }
+
+.energy-cont {
+  & > :not(:nth-child(1)) {
+    margin-top: 1rem;
+  }
+}
+.energy-img {
+  & > img {
+    width: 100%;
+  }
+}
