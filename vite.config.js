@@ -13,6 +13,7 @@ export default {
         index: "./main.js", // Common entry point for shared modules
         homePage: "/index.html", // Entry point for index.html
         aboutPage: "/pages/about-us.html", // Entry point for about.html
+        teamPage: "/pages/our-team.html", // Entry point for team.html
         servicePage: "/pages/our-services.html",
         contactPage: "/pages/contact-us.html",
         agriculturePage: "/pages/our-businesses/agriculture.html",

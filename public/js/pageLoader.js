@@ -133,6 +133,15 @@ select(
           </li>
         </ul>
       </li>
+          <li
+        data-aos="fade-down"
+        data-aos-duration="1000"
+        data-aos-duration="1000"
+        data-aos-delay="600"
+        class="nav-menu-item"
+      >
+        <a href="/pages/our-team.html"><span>Our Team</span></a>
+      </li>
       <li
         data-aos="fade-down"
         data-aos-duration="1000"
@@ -184,9 +193,10 @@ select(
      
           <ul class="footer-list2">
             <li><p>Company</p></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Our Businesses</a></li>
-            <li><a href="#">Contact Us</a></li>
+            <li><a href="/pages/about-us.html">About Us</a></li>
+            <li><a href="">Our Businesses</a></li>
+             <li><a href="/pages/our-team.html">Our Team</a></li>
+            <li><a href="/pages/contact-us.html">Contact Us</a></li>
           </ul>
 
           <ul class="footer-list2">
