@@ -162,8 +162,8 @@ select(
             <p class="fw-bold text-white">Quick Contact</p>
           </li>
           <li>
-            <a class="text-white-50" href="mailto:sales@ukeagle.ae">
-            sales@ukeagle.ae
+            <a class="text-white-50" href="mailto:info@ukeagle.ae">
+            info@ukeagle.ae
             </a>
           </li>
   
@@ -207,14 +207,6 @@ select(
               <a href="#"><ion-icon class='text-white' name="logo-linkedin"></ion-icon></a>
   
   
-              <a href="#">
-                <ion-icon class='text-white' name="logo-twitter"></ion-icon>
-              </a>
-
-              
-              <a href="#">
-                <ion-icon class='text-white' name="logo-youtube"></ion-icon>
-              </a>
             </li>
           </ul>
       </section>

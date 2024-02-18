@@ -2,9 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/svg+xml" href="/public/images/logo.png" />
+    <title>Contact Us</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -133,10 +133,12 @@
                       >Name <i class="fa-solid fs-6 fa-asterisk"></i>
                     </label>
                     <input
-                      type="email"
-                      class="form-control"
+                      type="text"
+                      class="form-control name"
+                      name="name"
                       id="name"
                       placeholder="Enter your name"
+                      required
                     />
                   </div>
                   <div class="col form-group">
@@ -144,10 +146,12 @@
                       >Telephone<i class="fa-solid fs-6 fa-asterisk"></i
                     ></label>
                     <input
-                      type="tel"
-                      class="form-control"
+                      type="number"
+                      class="form-control phone"
                       id="Telephone"
+                      name="phone"
                       placeholder="Enter your telephone number"
+                      required
                     />
                   </div>
                 </section>
@@ -159,73 +163,26 @@
                     ></label>
                     <input
                       type="email"
-                      class="form-control"
+                      class="form-control email"
                       id="Email"
                       placeholder="Enter your email"
+                      name="email"
+                      required
                     />
                   </div>
-
-                  <!-- <div class="col form-group">
-                    <label for="state">State</label>
-                    <select id="state" class="form-control state-list">
-                      <option value="">Select state</option>
-                      <option value="AN">Andaman and Nicobar Islands</option>
-                      <option value="AP">Andhra Pradesh</option>
-                      <option value="AR">Arunachal Pradesh</option>
-                      <option value="AS">Assam</option>
-                      <option value="BR">Bihar</option>
-                      <option value="CH">Chandigarh</option>
-                      <option value="CT">Chhattisgarh</option>
-                      <option value="DN">Dadra and Nagar Haveli</option>
-                      <option value="DD">Daman and Diu</option>
-                      <option value="DL">Delhi</option>
-                      <option value="GA">Goa</option>
-                      <option value="GJ">Gujarat</option>
-                      <option value="HR">Haryana</option>
-                      <option value="HP">Himachal Pradesh</option>
-                      <option value="JK">Jammu and Kashmir</option>
-                      <option value="JH">Jharkhand</option>
-                      <option value="KA">Karnataka</option>
-                      <option value="KL">Kerala</option>
-                      <option value="LA">Ladakh</option>
-                      <option value="LD">Lakshadweep</option>
-                      <option value="MP">Madhya Pradesh</option>
-                      <option value="MH">Maharashtra</option>
-                      <option value="MN">Manipur</option>
-                      <option value="ML">Meghalaya</option>
-                      <option value="MZ">Mizoram</option>
-                      <option value="NL">Nagaland</option>
-                      <option value="OR">Odisha</option>
-                      <option value="PY">Puducherry</option>
-                      <option value="PB">Punjab</option>
-                      <option value="RJ">Rajasthan</option>
-                      <option value="SK">Sikkim</option>
-                      <option value="TN">Tamil Nadu</option>
-                      <option value="TG">Telangana</option>
-                      <option value="TR">Tripura</option>
-                      <option value="UP">Uttar Pradesh</option>
-                      <option value="UT">Uttarakhand</option>
-                      <option value="WB">West Bengal</option>
-                    </select>
-                  </div> -->
                 </section>
 
                 <section class="row">
-                  <!-- <div class="col form-group">
-                    <label for="City">City</label>
-                    <input
-                      type="City"
-                      class="form-control"
-                      id="City"
-                      placeholder="Enter your City"
-                    />
-                  </div> -->
-
                   <div class="col form-group">
                     <label for="segment"
                       >Segment<i class="fa-solid fs-6 fa-asterisk"></i
                     ></label>
-                    <select id="segment" class="form-control segment-list">
+                    <select
+                      name="segment"
+                      id="segment"
+                      class="form-control segment-list segment"
+                      required
+                    >
                       <option selected>Select Segment</option>
                       <option value="Agriculture">Agriculture</option>
                       <option value="Energy">Energy</option>
@@ -237,58 +194,24 @@
                   </div>
                 </section>
 
-                <!-- <section class="row">
-                  <div class="col form-group">
-                    <label for="looking-for">Looking For</label>
-                    <select
-                      id="looking-for"
-                      class="form-control looking-for-list"
-                    >
-                      <option selected>Select Type</option>
-                      <option value="Retailer">Retailer</option>
-                      <option value="Distributorship">Distributorship</option>
-                    </select>
-                  </div>
-
-                  <div class="col form-group">
-                    <label for="investment-for">Investment For</label>
-                    <select
-                      id="investment-for"
-                      class="form-control investment-list"
-                    >
-                      <option selected>Select Investment</option>
-                      <option value="Less than 1 Lakh">Less than 1 Lakh</option>
-                      <option value="1 Lakh to 2 Lakh">1 Lakh to 2 Lakh</option>
-                      <option value="2 Lakh to 3 Lakh">2 Lakh to 3 Lakh</option>
-                    </select>
-                  </div>
-                </section> -->
-
-                <!-- <div class="form-group">
-                  <label for="hear-about">How do you hear about us </label>
-                  <select id="hear-about" class="form-control hear-about-list">
-                    <option selected>Select Source</option>
-                    <option value="Less than 1 Lakh">Google Search</option>
-                    <option value="1 Lakh to 2 Lakh">Digital Ads</option>
-                    <option value="2 Lakh to 3 Lakh">Other</option>
-                  </select>
-                </div> -->
-
                 <div class="form-group">
                   <label for="messaage"
                     >Message<i class="fa-solid fs-6 fa-asterisk"></i
                   ></label>
                   <textarea
+                    required
                     class="form-control message"
                     placeholder="Write a Message"
-                    name="write-a-message"
+                    name="message"
                     id="message"
                     cols="30"
                     rows="5"
                   ></textarea>
                 </div>
                 <section class="d-flex justify-content-center">
-                  <button type="submit" class="default-button">Submit</button>
+                  <button type="submit" class="default-button submit-button">
+                    Submit
+                  </button>
                 </section>
               </form>
             </section>
@@ -321,5 +244,50 @@
     ></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script type="module" src="/main.js"></script>
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbyUAr9HqlU0_DwQBNdGPMZ_0fYq0J0hJiApYKFwvNKBAXjNO5qCzoEgn05RigtQn61M/exec";
+
+      document.addEventListener("DOMContentLoaded", function () {
+        const form = document.querySelector(".contact-form");
+
+        const phoneRegex =
+          "^\\+?([0-9]{3})?[-. ]?([0-9]{3})[-. ]?([0-9]{4,6})$";
+
+        form.addEventListener("submit", function (event) {
+          event.preventDefault();
+
+          const name = document.getElementById("name").value;
+          const phone = document.getElementById("Telephone").value;
+          const email = document.getElementById("Email").value;
+          const segment = document.getElementById("segment").value;
+          const message = document.getElementById("message").value;
+
+          const submitButton = document.querySelector(".submit-button");
+          submitButton.textContent = "Sending";
+          submitButton.disabled = true;
+
+          fetch(scriptURL, { method: "POST", body: new FormData(form) })
+            .then((response) => {
+              if (response.ok) {
+                return response.text(); // Parse the response body as text
+              } else {
+                throw new Error("Form submission failed");
+              }
+            })
+            .then((data) => {
+              alert("Thank you! Your form is submitted successfully.");
+              submitButton.textContent = "Send";
+              submitButton.disabled = false;
+              window.location.reload();
+            })
+            .catch((error) => {
+              console.error("Error!", error.message);
+              submitButton.textContent = "Send";
+              submitButton.disabled = false;
+            });
+        });
+      });
+    </script>
   </body>
 </html>
