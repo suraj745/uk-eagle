@@ -868,6 +868,11 @@ $nav-height: 50rem; // slider
   overflow-y: scroll !important;
   text-align: center;
 
+  &::-webkit-scrollbar {
+    display: block;
+    width: 0.4rem;
+  }
+
   & > p {
     font-size: 1.4rem;
   }
