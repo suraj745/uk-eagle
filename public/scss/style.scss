@@ -867,6 +867,10 @@ $nav-height: 50rem; // slider
   height: 20rem !important;
   overflow-y: scroll !important;
   text-align: center;
+
+  & > p {
+    font-size: 1.4rem;
+  }
 }
 @media (max-width: 820px) {
   .card {
