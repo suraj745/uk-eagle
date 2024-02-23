@@ -179,14 +179,14 @@ select(
           <li>
             <a
               class="text-decoration-none phone-number text-white-50"
-              href="tel:+971 52 835 3817"
-              ><span></span>+971 52 835 3817</a
+              href="tel:+971 04 236 4331"
+              ><span></span>+971 04 236 4331</a
             >
           </li>
   
           <li>
             <p class="text-white-50">
-            Post Box No 112356 Dubai UAE</p>
+           1408, Mazaya BB1,JLT,Dubai,U.A.E</p>
           </li>
         </ul>
   
