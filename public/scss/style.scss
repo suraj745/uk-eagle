@@ -850,6 +850,7 @@ $nav-height: 50rem; // slider
   transition: 0.3s all ease;
   cursor: pointer;
   max-width: 29rem;
+  padding-block: 2rem;
 
   &.card > .card-body > .card-title {
     color: #25237a;
@@ -860,17 +861,22 @@ $nav-height: 50rem; // slider
 
   & > .card-img-top {
     object-fit: contain !important;
+    height: 20rem;
   }
   & > .card-body {
     height: 20rem !important;
     overflow-y: scroll !important;
     text-align: center;
 
+    // &::-webkit-scrollbar {
+    //   display: block;
+    //   width: 0.4rem;
+    // }
+
     &::-webkit-scrollbar {
       display: block;
       width: 0.4rem;
     }
-
     & > p {
       font-size: 1.4rem;
     }
