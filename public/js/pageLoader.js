@@ -186,7 +186,9 @@ select(
   
           <li>
             <p class="text-white-50">
-           1408, Mazaya BB1,JLT,Dubai,U.A.E</p>
+           Mazaya Business Avenue BB1,
+#1408, 14th Floor, First Al khail st.
+Jumeirah Lake Towers, Dubai, UAE</p>
           </li>
         </ul>
   
